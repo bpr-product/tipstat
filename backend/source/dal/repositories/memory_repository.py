@@ -1,6 +1,7 @@
 """Data access for sources, facts, evidence, dependencies, embeddings and run metadata. Facts and their FTS rows are
 written in one transaction, so a durable fact is never left unindexed; embeddings are a separate, optional index."""
 import hashlib
+import json
 import re
 import secrets
 import sqlite3
@@ -9,6 +10,18 @@ from collections import Counter
 
 from backend.source.dal.db_session import Database
 from backend.source.utils.text import message_terms, norm, words
+
+
+def _strings(o):
+    """Every string value inside a payload (never keys, numbers or timestamps' structure)."""
+    if isinstance(o, str):
+        yield o
+    elif isinstance(o, dict):
+        for v in o.values():
+            yield from _strings(v)
+    elif isinstance(o, list):
+        for v in o:
+            yield from _strings(v)
 
 
 HANDLE_AFTER = re.compile(r"(?:from|to): (@[\w.]*\w)")
@@ -110,6 +123,7 @@ class MemoryRepository:
                 if replaces is not None:
                     target = self.db.execute("SELECT * FROM facts WHERE id=? AND status='active'", (replaces,)).fetchone()
                 historical = bool(target and f.get("when") and target["when_date"] and f["when"] < target["when_date"])
+                former = bool(f.get("historical")) and target is None  # the text itself says it is over: never stored as current
                 cur = self.db.execute(
                     "INSERT INTO facts(kind,subject,relation,value,attribution,when_date,quote,key,first_message_id,created_ts,"
                     "cardinality,ext_id,data,predecessor_id,when_ts,sensitive,conflict_with,vkey,skey,status,ended_ts) "
@@ -118,7 +132,8 @@ class MemoryRepository:
                      message_id, ts, f.get("cardinality"), f.get("ext_id"), f.get("data"),
                      target["id"] if target and not historical else None, f.get("when_ts"), int(bool(f.get("sensitive"))),
                      f.get("conflict_with"), norm(f["value"]), norm(f["subject"]) + "|" + norm(f["relation"]),
-                     "superseded" if historical else "active", target["when_date"] if historical else None))
+                     "superseded" if historical or former else "active",
+                     target["when_date"] if historical else (f.get("when") or ts[:10]) if former else None))
                 fid = cur.lastrowid
                 self.db.execute("INSERT INTO fts(ref,text) VALUES(?,?)",
                                 (f"f:{fid}", f"{f['subject']} {f['relation']} {f['value']} {f['quote']}"))
@@ -135,6 +150,8 @@ class MemoryRepository:
                 fid = row["id"]
                 if f.get("sensitive"):  # restating a fact with "keep it private" makes the stored one private; never the reverse
                     self.db.execute("UPDATE facts SET sensitive=1 WHERE id=?", (fid,))
+                if f.get("historical"):  # "I used to ..." about a fact that is stored as current closes it
+                    self.db.execute("UPDATE facts SET status='superseded', ended_ts=? WHERE id=? AND status='active'", (f.get("when") or ts[:10], fid))
             self.db.execute("INSERT OR IGNORE INTO evidence(fact_id,message_id,quote) VALUES(?,?,?)",
                             (fid, message_id, f["quote"]))
             return fid, created, superseded
@@ -149,6 +166,15 @@ class MemoryRepository:
             for k in kids:
                 self.db.execute("UPDATE facts SET status='stale', ended_ts=? WHERE id=? AND status='active'", (ts, k))
             frontier = kids
+
+    def has_successor(self, fact_id: int) -> bool:
+        with self.lock:
+            return self.db.execute("SELECT 1 FROM facts WHERE predecessor_id=? LIMIT 1", (fact_id,)).fetchone() is not None
+
+    def close_fact(self, fact_id: int, ended: str) -> None:
+        """The text said this is no longer true: it stays as history, no longer as a current fact."""
+        with self.lock, self.db:
+            self.db.execute("UPDATE facts SET status='superseded', ended_ts=? WHERE id=? AND status='active'", (ended, fact_id))
 
     def escalate_sensitive(self, fact_id: int) -> None:
         with self.lock, self.db:
@@ -332,17 +358,34 @@ class MemoryRepository:
             self.db.execute("UPDATE sources SET text='', extraction=? WHERE message_id=?", (status, message_id))
         self.compact()
 
-    def redact_chats(self, phrases, uni, bi) -> int:
-        """After a Forget: replace every stored chat message (and its evidence/trace payload) that contains an erased
-        phrase or a distinctive erased term. Returns how many messages were redacted."""
-        note, n = "[removed: this message contained information you asked me to forget]", 0
+    def redact_chats(self, phrases, uni, bi, fact_ids=()) -> int:
+        """After a Forget: replace every stored chat message that carried the erased information, and the other half of
+        its request (the question or the answer). A message is hit by: a receipt/answer that references an erased fact id,
+        an erased phrase, a name or long number that is gone from memory, or a word pair that is gone. Only visible text is
+        compared (string values), so dates, ids and numbers in the metadata never cause an unrelated message to be redacted."""
+        note, n, fact_ids, requests = "[removed: this message contained information you asked me to forget]", 0, set(fact_ids), set()
         with self.lock, self.db:
-            for r in self.db.execute("SELECT id, content, payload FROM chat_messages").fetchall():
-                text = f"{r['content']} {r['payload'] or ''}"
+            for r in self.db.execute("SELECT id, content, payload, request_id FROM chat_messages").fetchall():
+                payload = json.loads(r["payload"]) if r["payload"] else None
+                if fact_ids and isinstance(payload, dict) and isinstance(payload.get("flow"), dict):  # an unused candidate that was erased:
+                    flow, changed = payload["flow"], False                                          # drop that entry, not the whole answer
+                    for key in ("candidates", "supplied"):
+                        kept = [c for c in flow.get(key, []) if not (str(c.get("ref", "")).startswith("F") and str(c["ref"])[1:].isdigit()
+                                                                     and int(c["ref"][1:]) in fact_ids)]
+                        changed |= len(kept) != len(flow.get(key, []))
+                        flow[key] = kept
+                    if changed:
+                        self.db.execute("UPDATE chat_messages SET payload=? WHERE id=?", (json.dumps(payload, ensure_ascii=False), r["id"]))
+                text = " ".join([r["content"], *(_strings(payload) if payload else [])])
+                refs = set(payload.get("fact_refs", [])) if isinstance(payload, dict) else set()
                 words_, pairs = message_terms(text)
-                if any(p in norm(text) for p in phrases) or words_ & uni or pairs & bi:
+                if refs & fact_ids or any(p in norm(text) for p in phrases) or words_ & uni or pairs & bi:
                     self.db.execute("UPDATE chat_messages SET content=?, payload=NULL WHERE id=?", (note, r["id"]))
                     n += 1
+                    if r["request_id"]:
+                        requests.add(r["request_id"])
+            for rid in requests:  # the turn's other half (what was asked, or what was answered) goes with it
+                n += self.db.execute("UPDATE chat_messages SET content=?, payload=NULL WHERE request_id=? AND content != ?", (note, rid, note)).rowcount
             for c in self.db.execute("SELECT id, title FROM conversations").fetchall():  # titles come from the first message
                 w2, p2 = message_terms(c["title"])
                 if any(p in norm(c["title"]) for p in phrases) or w2 & uni or p2 & bi:

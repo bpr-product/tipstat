@@ -64,7 +64,7 @@ def _seq(text: str, short_field: bool = False) -> list:
     return out
 
 
-def leak_terms(subject: str, relation: str, value: str, quote: str) -> tuple:
+def leak_terms(subject: str, relation: str, value: str, quote: str, strong: bool = False) -> tuple:
     """(distinctive single words, adjacent word pairs) of a fact: what a message would contain if it revealed the fact.
     Single words are names and numbers (plus the words of a short value); pairs catch phrases like 'job offer'.
     Common words alone are never terms, so unrelated text is not caught."""
@@ -73,6 +73,8 @@ def leak_terms(subject: str, relation: str, value: str, quote: str) -> tuple:
         seq = _seq(text, short_field=len((text or "").split()) <= 4)
         uni |= {w for w, proper in seq if proper}
         bi |= {f"{a} {b}" for (a, _), (b, _) in zip(seq, seq[1:])}
+    if strong:  # for redacting conversations: names and long numbers only, never common words or years/small numbers
+        return {w for w in uni if not (w.isdigit() and len(w) < 5)}, bi
     if len((value or "").split()) <= 3:
         uni |= {w for w, _ in _seq(value, True)}
     return uni, bi

@@ -151,8 +151,13 @@ function renderTranscript(msgs) {
   msgs.forEach((m) => t.appendChild(m.role === 'user' ? userBubble(m) : botBubble(m)));
   t.lastChild.scrollIntoView({ block: 'end' });
 }
-const TAG = { tell: 'told', ask: 'asked', do: 'job' };
-function userBubble(m) { const w = el('div', 'msg user'), b = el('div', 'bubble', m.content); b.appendChild(el('span', 'tag', TAG[m.mode] || '')); w.appendChild(b); return w; }
+const MODE_NAME = { tell: 'Remember', ask: 'Ask', do: 'Do' };   // the label shown for a mode; the mode value itself is unchanged
+// A small icon beside the message says how it was sent (replaces the words told / asked / job); the bubble keeps only the text.
+function userBubble(m) {
+  const w = el('div', 'msg user'), b = el('div', 'bubble', m.content), i = el('span', 'msg-ico');
+  i.dataset.mode = m.mode; i.title = MODE_NAME[m.mode] || ''; i.setAttribute('role', 'img'); i.setAttribute('aria-label', 'Sent as ' + (MODE_NAME[m.mode] || 'a message'));
+  w.append(i, b); return w;
+}
 function section(title, items, render) { const d = el('div', 'rc'); d.appendChild(el('strong', null, title)); items.forEach((i) => d.appendChild(el('div', 'rc-item', render ? render(i) : i))); return d; }
 function usageLine(u, open) {
   if (!u) return null;

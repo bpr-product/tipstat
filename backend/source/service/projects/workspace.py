@@ -18,11 +18,14 @@ from backend.source.dal.repositories.chat_repository import ChatRepository, now_
 from backend.source.dal.repositories.memory_view import snapshot
 from backend.source.dal.repositories.project_repository import ProjectRepository
 from backend.source.service.memory.intent import looks_like_question
+from backend.source.utils.text import STOP
 from backend.source.utils import config, metrics
 
 MODES = {"tell", "ask", "do"}
 FORGOTTEN_REQUEST = "(You asked me to forget something. The request text was not kept.)"
-FOLLOW_UP = re.compile(r"^\s*(and|also|what about|how about|then|so|but)\b|\b(it|that|those|them|he|she|they|this|there|then)\b", re.IGNORECASE)
+CONNECTIVE = re.compile(r"^\s*(and|also|what about|how about|then|so|but)\b", re.IGNORECASE)
+PRONOUN = re.compile(r"\b(it|its|that|those|them|they|he|she|him|her|there|this one)\b", re.IGNORECASE)
+THIN = {"when", "where", "which", "whose", "whom", "why", "does", "tell", "show", "about", "next", "also", "then", "with"}
 QUESTION_GUIDANCE = "That looks like a question, so I did not store it. Tell is for things to remember; use Ask to look something up."
 
 
@@ -152,9 +155,11 @@ class Workspace:
 
     @staticmethod
     def _follow_up_hint(chats: ChatRepository, cid: int, text: str):
-        """For a short or pronoun question in a chat that already had an Ask: the previous question, as a hint about what
-        'it' or 'that' means. It is never evidence, and the previous answer is not used at all."""
-        if len(text.split()) > 9 or not (FOLLOW_UP.search(text) or len(text.split()) <= 5):
+        """For a thin question ("and with whom?", "when is it?", "where?") in a chat that already had an Ask: the previous
+        QUESTION, as a hint about what 'it' or 'that' means. A question that carries its own subject is never a follow-up.
+        The hint is never evidence and the previous answer is not used at all."""
+        own = {w for w in re.findall(r"[a-z]{4,}", text.lower()) if w not in STOP and w not in THIN}
+        if len(text.split()) > 12 or not (CONNECTIVE.match(text) or not own or (PRONOUN.search(text) and len(own) <= 1)):
             return None
         prior = [m["content"] for m in chats.messages(cid) if m["role"] == "user" and m["mode"] == "ask" and not m["content"].startswith(("[removed", "("))]
         return prior[-1][:200] if prior else None
@@ -183,7 +188,9 @@ class Workspace:
                 cited.append({"ref": ref, "fact_id": None, "label": "source message", "quote": ((src["text"] if src else "") or "")[:300],
                               "kind": "source", "attribution": src["origin"] if src else None, "status": "source", "message_id": ref[2:],
                               "source_kind": src["kind"] if src else None, "source_origin": src["origin"] if src else None})
-        return {"flow": {"expansion": {"terms": expand.get("terms"), "error": expand.get("error")}, "semantic_used": semantic.get("used"),
+        # Only facts the answer cited tie a whole answer to a fact: an uncited candidate that is later erased is removed from the
+        # answer's retrieval list instead (see MemoryRepository.redact_chats), so unrelated answers are not redacted.
+        return {"fact_refs": sorted({c["fact_id"] for c in cited if c["fact_id"]}), "flow": {"expansion": {"terms": expand.get("terms"), "error": expand.get("error")}, "semantic_used": semantic.get("used"),
                          "lexical": retrieve.get("lexical"), "semantic_hits": retrieve.get("semantic"), "fused": retrieve.get("fused"),
                          "rrf_applied": retrieve.get("rrf_applied"),
                          "candidates": [{**c, **self._label(system, c["ref"])} for c in retrieve.get("candidates", [])],
@@ -241,6 +248,8 @@ class Workspace:
             headline = "No structured facts were extracted from that. The message itself is kept as a searchable source, so Ask can still find it, but nothing was saved as a memory."
         return {"headline": headline, "extraction": extraction, "saved": saved, "updated": updated, "history": history, "stale": stale,
                 "already_known": again, "conflicts": conflicts, "forgotten": removed, "sources_erased": erased, "source_kept": kept,
+                "fact_refs": sorted(set(new) | {f["predecessor_id"] for f in new.values() if f["predecessor_id"]}
+                                    | {i for i, f in a.items() if i in b and (f["status"] == "stale" or f["ev"] > b[i]["ev"])}),
                 "verification": None if verified is None else {"verified": bool(verified), "problems": problems}}
 
     # -- memory timeline, inspection, indexing -----------------------------------------------------------

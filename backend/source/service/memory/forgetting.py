@@ -17,7 +17,7 @@ IMPERATIVE = re.compile(r"^\s*(?:please\s+|can you\s+|could you\s+|actually,?\s+
 SENTENCES = re.compile(r"(?<=[.!?])\s+|\n")
 
 
-def _source_terms(repo: MemoryRepository, source_ids) -> tuple:
+def _source_terms(repo: MemoryRepository, source_ids, strong) -> tuple:
     """What the raw sources about to be erased contained: names/numbers, word pairs and the user's own lines. Needed so a
     forget that removes only a source (no fact was extracted from it) still clears conversations and titles."""
     uni, bi, lines = set(), set(), set()
@@ -26,18 +26,24 @@ def _source_terms(repo: MemoryRepository, source_ids) -> tuple:
             u, b = leak_terms("", "", "", s["text"] or "")
             uni |= u
             bi |= b
+            u2, b2 = leak_terms("", "", "", s["text"] or "", strong=True)
+            strong[0] |= u2
+            strong[1] |= b2
             lines |= {norm(ln[6:]) for ln in (s["text"] or "").splitlines() if ln.startswith("USER: ") and len(norm(ln[6:])) >= MIN_PHRASE}
     return uni, bi, lines
 
 
 def forget(repo: MemoryRepository, plan: Plan, ts: str, request_id: str) -> bool:
     """Erase the plan, then check nothing of it remains. Returns True only if verification found no problem."""
-    erased_uni, erased_bi = set(), set()
+    erased_uni, erased_bi, strong = set(), set(), [set(), set()]
     for f in repo.facts_by_id(list(plan.facts)):
         u, b = leak_terms(f["subject"], f["relation"], f["value"], f["quote"])
         erased_uni |= u
         erased_bi |= b
-    src_uni, src_bi, src_lines = _source_terms(repo, plan.sources)
+        u2, b2 = leak_terms(f["subject"], f["relation"], f["value"], f["quote"], strong=True)
+        strong[0] |= u2
+        strong[1] |= b2
+    src_uni, src_bi, src_lines = _source_terms(repo, plan.sources, strong)
     erased_uni |= src_uni
     erased_bi |= src_bi
     chat_phrases = set(plan.phrases) | src_lines
@@ -47,7 +53,10 @@ def forget(repo: MemoryRepository, plan: Plan, ts: str, request_id: str) -> bool
     left_uni, left_bi = repo.remaining_terms()
     gone_uni, gone_bi = erased_uni - left_uni, erased_bi - left_bi
     repo.add_tombstones({"u:" + w for w in gone_uni} | {"b:" + p for p in gone_bi})
-    repo.redact_chats(chat_phrases, gone_uni, gone_bi)  # saved conversations and their titles must not keep it either
+    # Saved conversations and their titles must not keep it either. They are matched on names/long numbers that are gone, on word
+    # pairs that contain a gone word (a pair of everyday words that still live elsewhere is not a leak), and on erased fact ids.
+    repo.redact_chats(chat_phrases, strong[0] - left_uni, {p for p in strong[1] - left_bi if any(w not in left_uni for w in p.split())},
+                      plan.facts)
     problems = repo.dangling() + repo.chat_leftovers(chat_phrases)
     problems += sum(1 for f in repo.all_facts()
                     if any(p in norm(f"{f['subject']} {f['relation']} {f['value']} {f['quote']} {f['data'] or ''}") for p in plan.phrases))

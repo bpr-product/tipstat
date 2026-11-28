@@ -12,14 +12,16 @@ Closure rules (repeat until stable):
   RARE_DOCS messages) goes: this catches paraphrased copies. One shared word is never enough, so unrelated facts that
   happen to mention a name survive.
 """
+import re
 from typing import NamedTuple
 
 from backend.source.dal.repositories.memory_repository import MemoryRepository
-from backend.source.utils.text import norm, words
+from backend.source.utils.text import leak_terms, norm, words
 
 RARE_DOCS = 2   # a word is distinctive if it occurs in at most this many messages (the erased one plus one copy)
 GENERIC = {"forget", "forgot", "delete", "erase", "remove", "please", "wipe", "purge", "anything", "everything", "about",
            "thing", "things", "stuff", "that", "this", "told", "tell", "keep", "anywhere", "remember", "mentioned", "never"}
+BROAD = re.compile(r"\b(everything|anything|all|any|whole|entire|every)\b", re.IGNORECASE)
 MIN_PHRASE = 12  # shorter quotes would match too much unrelated text to be a safe cascade key
 
 
@@ -37,6 +39,11 @@ def _text(f) -> str:
 def plan_forget(repo: MemoryRepository, fact_ids, source_ids, request: str = "") -> Plan:
     facts, sources, phrases = repo.chain_ids(fact_ids), set(source_ids), set()
     anchor = (words(request, 4) - GENERIC) | set().union(*[words(_text(f), 4) for f in repo.facts_by_id(list(facts))], set())
+    if BROAD.search(request or ""):  # "forget everything about Acme": the user named the scope, so everything that names it is in
+        names = {n for n in leak_terms("", "", "", request)[0] if not n.isdigit()}
+        if names:
+            facts |= {f["id"] for f in repo.all_facts() if names & words(_text(f), 3)}
+            sources |= {s["message_id"] for s in repo.all_sources() if names & words(s["text"], 3)}
     base = len(facts) + len(sources)
     evidence = repo.all_evidence()
     rare = {w for w, n in repo.doc_freq(5).items() if n <= RARE_DOCS}  # words found in few messages are distinctive

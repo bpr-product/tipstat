@@ -11,6 +11,7 @@ ATTRIB = {"user", "other"}
 
 PASTE_MARK = re.compile(r"^\s*(>|-{3,}\s*(forwarded|original)|begin forwarded|forwarded message|(from|to|cc|subject|sent|date):\s|on .{5,80} wrote:)",
                         re.IGNORECASE)
+HIST_MARK = re.compile(r"\b(used to|formerly|previously|no longer|until|back then|at that time|former|ex-|had been|was|were|stopped|left|quit)\b|\bin (19|20)\d\d\b", re.IGNORECASE)
 HHMM = re.compile(r"^([01]?\d|2[0-3]):[0-5]\d$")
 
 
@@ -83,6 +84,7 @@ def validate_candidate(f, haystack: str, related_ids: set, force_other: bool = F
     c.update(kind=kind, attribution=attribution, derived_from=parents, when=valid_date(f.get("when")) if f.get("when") else None,
              when_ts=valid_datetime(f.get("when")) if f.get("when") else None,
              sensitive=f.get("sensitive") is True or str(f.get("sensitive")).lower() == "true",
+             historical=(f.get("historical") is True or str(f.get("historical")).lower() == "true") and bool(HIST_MARK.search(c["quote"])),  # the words must say it
              cardinality=card if card in ("EXCLUSIVE", "MULTI") else "MULTI", replaces=rid)
     constraint = (_constraint(f.get("constraint")) or _constraint_from_text(c["quote"])) if kind == "RULE" and attribution == "user" else None
     if constraint:  # only the user's own rules can carry an enforceable constraint

@@ -54,7 +54,8 @@ def retrieve(search: SearchRepository, llm, question: str, has_data: bool, embed
         try:
             today = repo.get_meta("now", "")[:10]
             horizon = (date.fromisoformat(today) + timedelta(days=14)).isoformat()
-            agenda = repo.upcoming(today, horizon, 8) + repo.active_by_kind("TODO")[:5]
+            open_todos = [t for t in repo.active_by_kind("TODO") if not t["when_date"] or t["when_date"] >= today]  # a lapsed one is not pending
+            agenda = repo.upcoming(today, horizon, 8) + open_todos[:5]
             agenda_ids = {f["id"] for f in agenda}
             facts = _union(agenda, facts, cap=20)  # first: what is due soon is the point of such a question, and a cap must not drop it
             trace.append({"step": "agenda", "n": len(agenda)})

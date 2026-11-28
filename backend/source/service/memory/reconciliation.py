@@ -8,7 +8,12 @@
   is flagged as conflicting with it. Both stay current, Ask is told, and nothing is overwritten on a guess.
 Independent members of a set never reach these rules as replacements: only an explicit, validated `replaces` supersedes.
 """
+import re
+
 from backend.source.utils.text import norm, words
+
+TEMP = re.compile(r"\b(this (week|weekend|month|morning|afternoon|evening|monday|tuesday|wednesday|thursday|friday|saturday|sunday)|today|tonight|tomorrow|"
+                  r"next (week|month)|only|just for|temporar\w*|for now|this time|one[- ]off|exception)\b", re.IGNORECASE)
 
 
 def _jaccard(a: set, b: set) -> float:
@@ -43,6 +48,10 @@ def reconcile(repo, clean: dict, related) -> tuple[dict, int | None]:
                 return clean, c["id"]
     if rid is None and clean.get("cardinality") == "EXCLUSIVE":
         for c in repo.same_subject_active(clean["subject"]):
+            timed = bool(clean.get("when")) or bool(TEMP.search(clean["quote"])) or bool(c["when_date"]) or bool(TEMP.search(c["quote"]))
+            same_day = bool(clean.get("when")) and clean.get("when") == c["when_date"]
+            if timed and not same_day:  # a temporary exception or a date-specific value sits beside the standing one, it does not contradict it
+                continue
             if c["kind"] == clean["kind"] and c["attribution"] == clean["attribution"] \
                     and _jaccard(words(c["relation"], 3), words(clean["relation"], 3)) >= 0.6:
                 clean["conflict_with"] = c["id"]

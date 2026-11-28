@@ -15,7 +15,7 @@ The first build downloads the local embedding model into the image (`build.sh`, 
 **Without Docker (Windows use `python`, macOS `python3`):**
 ```bash
 python server.py                                   # official service on :8000, reads .env
-python -m unittest discover -s tests               # 201 unit tests, no network or key needed
+python -m unittest discover -s tests               # 213 unit tests, no network or key needed
 python -m world.server --port 8800 --persona data/dev/persona_a --date 2026-11-03     # mock world
 python -m harness.run --system http://localhost:8000 --data data/dev/persona_a --world auto --judge offline --out runs/try1
 ```
@@ -47,7 +47,7 @@ backend/source/service        memory (ingestion, extraction, reconciliation, ret
 backend/source/dal            SQLite schema, repositories (memory, search, chat, projects, memory view)
 backend/source/schemas, utils validation gate; text, time, config, metrics
 frontend/                     product UI (plain HTML/JS/CSS) and its local server
-tests/                        201 tests (fake model, real SQLite, real local HTTP servers)
+tests/                        213 tests (fake model, real SQLite, real local HTTP servers)
 build.sh                      best-effort local model download at image build time
 BUILD_STATE.md                running build log: decisions, results, limits
 ```

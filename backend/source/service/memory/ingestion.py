@@ -91,6 +91,8 @@ def _extract(repo, search, llm, embedder, mid, ts, header, body, quote_text, sea
             repo.add_evidence(duplicate_of, mid, clean["quote"])
             if clean.get("sensitive"):  # a later "keep it private" must not be lost by merging
                 repo.escalate_sensitive(duplicate_of)
+            if clean.get("historical"):  # "I used to ..." about something stored as current closes it
+                repo.close_fact(duplicate_of, clean.get("when") or ts[:10])
             continue
         repo.add_fact(clean, mid, ts, replaces=clean.pop("replaces"))
     repo.set_extraction(mid, "ok")
