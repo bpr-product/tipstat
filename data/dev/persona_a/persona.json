@@ -1,0 +1,42 @@
+{
+  "persona_id": "persona_a",
+  "name": "Arjun Mehta",
+  "age": 29,
+  "city": "Bengaluru (lives in HSR Layout)",
+  "occupation": "Backend engineer at a fintech startup, Koramangala",
+  "timezone": "Asia/Kolkata",
+  "base_routine": {
+    "weekday": [
+      "06:30 gym (IronHouse, HSR)",
+      "09:30-18:30 work",
+      "13:00 lunch at desk, watches a series",
+      "19:30 badminton Tue/Thu with Kavya",
+      "22:30 wind down"
+    ],
+    "weekend": [
+      "Sunday 07:00 cricket with office friends at Jakkur ground",
+      "Saturday errands / friends"
+    ]
+  },
+  "people": {
+    "Kavya": "close friend, badminton partner",
+    "Rohan": "college friend",
+    "Priya": "cousin (mother's side), lives in Jaipur",
+    "Mom": "lives in Jaipur",
+    "Kavya Menon": "colleague on payments (@kavya.m) - the other Kavya",
+    "Nikhil Bhat": "his engineering manager (@nikhil)",
+    "Vivek, Sneha, Mohit, Naveen": "payments and platform engineers at Ledgerly"
+  },
+  "style": "Casual, short messages, Indian English, occasional Hinglish",
+  "dev_note": "Practice persona: a few dozen messages. The hidden persona is a different person with about 175 messages, many of them long.",
+  "work": {
+    "company": "Ledgerly, a payments fintech in Koramangala (~120 people)",
+    "team": "Payments; owns the reconciliation service migration from 2 Nov",
+    "rituals": [
+      "10:00 payments standup",
+      "Mon 11:00 sync with Nikhil",
+      "Mon 12:00 on-call handover",
+      "Wed 15:00 payments design review"
+    ]
+  }
+}

@@ -1,0 +1,5900 @@
+{
+ "persona_id": "persona_a",
+ "utc_offset": "+05:30",
+ "user": {
+  "id": "p_arjun",
+  "name": "Arjun Mehta",
+  "slack": "@arjun",
+  "email": "arjun@ledgerly.in"
+ },
+ "people": [
+  {
+   "id": "p_arjun",
+   "name": "Arjun Mehta",
+   "slack": "@arjun",
+   "email": "arjun@ledgerly.in",
+   "title": "Backend Engineer, Payments",
+   "team": "Payments"
+  },
+  {
+   "id": "p_kavya_rao",
+   "name": "Kavya Rao",
+   "slack": "@kavya",
+   "email": "kavya.rao@gmail.com",
+   "title": ""
+  },
+  {
+   "id": "p_kavya_menon",
+   "name": "Kavya Menon",
+   "slack": "@kavya.m",
+   "email": "kavya.menon@ledgerly.in",
+   "title": "Backend Engineer, Payments",
+   "team": "Payments"
+  },
+  {
+   "id": "p_rohan",
+   "name": "Rohan Das",
+   "slack": "@rohan",
+   "email": "rohan.das@gmail.com",
+   "title": ""
+  },
+  {
+   "id": "p_nikhil",
+   "name": "Nikhil Bhat",
+   "slack": "@nikhil",
+   "email": "nikhil@ledgerly.in",
+   "title": "Engineering Manager, Payments",
+   "team": "Payments"
+  },
+  {
+   "id": "p_priya",
+   "name": "Priya Mehta",
+   "slack": "",
+   "email": "priya.mehta@gmail.com",
+   "title": ""
+  },
+  {
+   "id": "p_mom",
+   "name": "Sunita Mehta",
+   "slack": "",
+   "email": "",
+   "phone": "+91 98290 11223",
+   "title": ""
+  },
+  {
+   "id": "p_vivek",
+   "name": "Vivek Raghunathan",
+   "slack": "@vivek",
+   "email": "vivek@ledgerly.in",
+   "title": "Senior Backend Engineer",
+   "team": "Payments"
+  },
+  {
+   "id": "p_sneha",
+   "name": "Sneha Kulkarni",
+   "slack": "@sneha",
+   "email": "sneha@ledgerly.in",
+   "title": "Frontend Engineer",
+   "team": "Payments"
+  },
+  {
+   "id": "p_mohit",
+   "name": "Mohit Agarwal",
+   "slack": "@mohit",
+   "email": "mohit@ledgerly.in",
+   "title": "SRE",
+   "team": "Platform"
+  },
+  {
+   "id": "p_aman",
+   "name": "Aman Gupta",
+   "slack": "@aman",
+   "email": "aman@ledgerly.in",
+   "title": "QA Engineer",
+   "team": "Payments"
+  },
+  {
+   "id": "p_naveen",
+   "name": "Naveen Reddy",
+   "slack": "@naveen",
+   "email": "naveen@ledgerly.in",
+   "title": "Backend Engineer",
+   "team": "Platform"
+  },
+  {
+   "id": "p_ishita",
+   "name": "Ishita Sen",
+   "slack": "@ishita",
+   "email": "ishita@ledgerly.in",
+   "title": "Frontend Engineer",
+   "team": "Growth"
+  },
+  {
+   "id": "p_prakash",
+   "name": "Prakash Rao",
+   "slack": "@prakash",
+   "email": "prakash@ledgerly.in",
+   "title": "Data Engineer",
+   "team": "Data"
+  },
+  {
+   "id": "p_deepa",
+   "name": "Deepa Nair",
+   "slack": "@deepa",
+   "email": "deepa@ledgerly.in",
+   "title": "Product Manager, Payments",
+   "team": "Product"
+  },
+  {
+   "id": "p_ritika",
+   "name": "Ritika Sharma",
+   "slack": "@ritika",
+   "email": "ritika@ledgerly.in",
+   "title": "Product Designer",
+   "team": "Design"
+  },
+  {
+   "id": "p_joseph",
+   "name": "Joseph Thomas",
+   "slack": "@joseph",
+   "email": "joseph@ledgerly.in",
+   "title": "CTO",
+   "team": "Leadership"
+  },
+  {
+   "id": "p_tara",
+   "name": "Tara Bhatia",
+   "slack": "@tara",
+   "email": "tara@ledgerly.in",
+   "title": "People Ops",
+   "team": "People"
+  }
+ ],
+ "channels": [
+  {
+   "name": "#payments-team",
+   "topic": "Payments squad",
+   "members": [
+    "@aman",
+    "@arjun",
+    "@deepa",
+    "@kavya.m",
+    "@nikhil",
+    "@sneha",
+    "@vivek"
+   ]
+  },
+  {
+   "name": "#general",
+   "topic": "Company-wide",
+   "members": [
+    "@aman",
+    "@arjun",
+    "@deepa",
+    "@ishita",
+    "@joseph",
+    "@kavya.m",
+    "@mohit",
+    "@naveen",
+    "@nikhil",
+    "@prakash",
+    "@ritika",
+    "@sneha",
+    "@tara",
+    "@vivek"
+   ]
+  },
+  {
+   "name": "#eng",
+   "topic": "All of engineering",
+   "members": [
+    "@aman",
+    "@arjun",
+    "@ishita",
+    "@joseph",
+    "@kavya.m",
+    "@mohit",
+    "@naveen",
+    "@nikhil",
+    "@prakash",
+    "@sneha",
+    "@vivek"
+   ]
+  },
+  {
+   "name": "#random",
+   "topic": "Anything goes",
+   "members": [
+    "@aman",
+    "@arjun",
+    "@deepa",
+    "@ishita",
+    "@joseph",
+    "@kavya.m",
+    "@mohit",
+    "@naveen",
+    "@nikhil",
+    "@prakash",
+    "@ritika",
+    "@sneha",
+    "@tara",
+    "@vivek"
+   ]
+  },
+  {
+   "name": "#incidents",
+   "topic": "SEV announcements",
+   "members": [
+    "@aman",
+    "@arjun",
+    "@ishita",
+    "@kavya.m",
+    "@mohit",
+    "@naveen",
+    "@nikhil",
+    "@prakash",
+    "@sneha",
+    "@vivek"
+   ]
+  },
+  {
+   "name": "#koramangala-office",
+   "topic": "Office life",
+   "members": [
+    "@aman",
+    "@arjun",
+    "@deepa",
+    "@ishita",
+    "@joseph",
+    "@kavya.m",
+    "@mohit",
+    "@naveen",
+    "@nikhil",
+    "@prakash",
+    "@ritika",
+    "@sneha",
+    "@tara",
+    "@vivek"
+   ]
+  },
+  {
+   "name": "#help-it",
+   "topic": "IT questions",
+   "members": [
+    "@aman",
+    "@arjun",
+    "@deepa",
+    "@ishita",
+    "@joseph",
+    "@kavya.m",
+    "@mohit",
+    "@naveen",
+    "@nikhil",
+    "@prakash",
+    "@ritika",
+    "@sneha",
+    "@tara",
+    "@vivek"
+   ]
+  },
+  {
+   "name": "#fe-guild",
+   "topic": "Frontend guild",
+   "members": [
+    "@arjun",
+    "@ishita",
+    "@ritika",
+    "@sneha"
+   ]
+  }
+ ],
+ "messages": [
+  {
+   "id": "m_0",
+   "channel": "#payments-team",
+   "from": "@nikhil",
+   "text": "Sprint 22 kicks off Monday. Planning doc is in the drive.",
+   "ts": "2026-10-30T17:10:00+05:30"
+  },
+  {
+   "id": "m_1",
+   "from": "@kavya",
+   "to": "@arjun",
+   "text": "badminton monday 7:30? court 3 booked",
+   "ts": "2026-10-31T21:02:00+05:30"
+  },
+  {
+   "id": "m_2",
+   "from": "@arjun",
+   "to": "@kavya",
+   "text": "in!",
+   "ts": "2026-10-31T21:05:00+05:30"
+  },
+  {
+   "id": "m_ax00001",
+   "from": "@vivek",
+   "text": "Partner bank is doing maintenance Wednesday 1-3 am, payouts will queue",
+   "ts": "2026-10-27T09:17:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00002",
+   "from": "@deepa",
+   "text": "added to the status page",
+   "ts": "2026-10-27T09:25:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00003",
+   "from": "@sneha",
+   "text": "Can someone review the UPI mandate copy? needs to go to compliance by Monday",
+   "ts": "2026-10-27T11:22:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00004",
+   "from": "@aman",
+   "text": "on it",
+   "ts": "2026-10-27T11:35:00+05:30",
+   "channel": "#payments-team",
+   "thread_id": "m_ax00003"
+  },
+  {
+   "id": "m_ax00005",
+   "from": "@deepa",
+   "text": "Chargeback rate this month is 17% lower than last, the new descriptor copy helped",
+   "ts": "2026-10-27T11:12:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00006",
+   "from": "@sneha",
+   "text": "nice! sharing with support",
+   "ts": "2026-10-27T11:16:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00007",
+   "from": "@deepa",
+   "text": "Settlement batch for yesterday ran clean, 26 payouts, zero retries",
+   "ts": "2026-10-27T13:42:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00008",
+   "from": "@aman",
+   "text": "on it",
+   "ts": "2026-10-27T13:54:00+05:30",
+   "channel": "#payments-team",
+   "thread_id": "m_ax00007"
+  },
+  {
+   "id": "m_ax00009",
+   "from": "@aman",
+   "text": "Chargeback rate this month is 14% lower than last, the new descriptor copy helped",
+   "ts": "2026-10-27T16:10:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00010",
+   "from": "@vivek",
+   "text": "nice! sharing with support",
+   "ts": "2026-10-27T16:23:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00011",
+   "from": "@vivek",
+   "text": "Settlement batch for yesterday ran clean, 35 payouts, zero retries",
+   "ts": "2026-10-27T13:34:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00012",
+   "from": "@aman",
+   "text": "nice",
+   "ts": "2026-10-27T13:40:00+05:30",
+   "channel": "#payments-team",
+   "thread_id": "m_ax00011"
+  },
+  {
+   "id": "m_ax00013",
+   "from": "@sneha",
+   "text": "Chargeback rate this month is 11% lower than last, the new descriptor copy helped",
+   "ts": "2026-10-27T17:29:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00014",
+   "from": "@vivek",
+   "text": "nice! sharing with support",
+   "ts": "2026-10-27T17:30:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00015",
+   "from": "@sneha",
+   "text": "Welcome to our new joiners this week! Say hi 👋",
+   "ts": "2026-10-27T15:05:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00016",
+   "from": "@vivek",
+   "text": "welcome!",
+   "ts": "2026-10-27T15:10:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00017",
+   "from": "@mohit",
+   "text": "👋👋",
+   "ts": "2026-10-27T15:20:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00018",
+   "from": "@ritika",
+   "text": "Reminder: insurance top-up enrolment closes at the end of the month. Link in your email.",
+   "ts": "2026-10-27T15:11:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00019",
+   "from": "@prakash",
+   "text": "lgtm",
+   "ts": "2026-10-27T15:12:00+05:30",
+   "channel": "#general",
+   "thread_id": "m_ax00018"
+  },
+  {
+   "id": "m_ax00020",
+   "from": "@mohit",
+   "text": "on-call handover: quiet week, one page for disk on worker-3, resolved. @aman you're up",
+   "ts": "2026-10-27T16:19:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00021",
+   "from": "@aman",
+   "text": "will check 🫡",
+   "ts": "2026-10-27T16:27:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00020"
+  },
+  {
+   "id": "m_ax00022",
+   "from": "@prakash",
+   "text": "who owns the first-run checklist feature flag? it's been at 50% for three weeks",
+   "ts": "2026-10-27T09:49:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00023",
+   "from": "@sneha",
+   "text": "@aman I think",
+   "ts": "2026-10-27T09:52:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00024",
+   "from": "@aman",
+   "text": "mine, rolling to 100 tomorrow if metrics hold",
+   "ts": "2026-10-27T10:01:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00025",
+   "from": "@vivek",
+   "text": "who owns the payouts screen feature flag? it's been at 50% for three weeks",
+   "ts": "2026-10-27T16:09:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00026",
+   "from": "@joseph",
+   "text": "@sneha I think",
+   "ts": "2026-10-27T16:10:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00027",
+   "from": "@sneha",
+   "text": "mine, rolling to 100 tomorrow if metrics hold",
+   "ts": "2026-10-27T16:11:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00028",
+   "from": "@joseph",
+   "text": "Heads up, I'm rotating the staging DB credentials at 2. Expect 2 min of errors.",
+   "ts": "2026-10-27T15:42:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00029",
+   "from": "@mohit",
+   "text": "noted",
+   "ts": "2026-10-27T15:56:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00030",
+   "from": "@ishita",
+   "text": "Is the team invites endpoint supposed to return 200 with an empty list or 404?",
+   "ts": "2026-10-27T15:15:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00031",
+   "from": "@prakash",
+   "text": "200 + empty list, 404 only if the account doesn't exist",
+   "ts": "2026-10-27T15:29:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00030"
+  },
+  {
+   "id": "m_ax00032",
+   "from": "@ishita",
+   "text": "ok updating the client",
+   "ts": "2026-10-27T15:40:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00030"
+  },
+  {
+   "id": "m_ax00033",
+   "from": "@joseph",
+   "text": "Deploying 4.20.7 to staging, shout if anything looks off",
+   "ts": "2026-10-27T11:26:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00034",
+   "from": "@aman",
+   "text": "sounds good",
+   "ts": "2026-10-27T11:28:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00033"
+  },
+  {
+   "id": "m_ax00035",
+   "from": "@joseph",
+   "text": "Staging is green. Prod at 11.",
+   "ts": "2026-10-27T11:31:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00033"
+  },
+  {
+   "id": "m_ax00036",
+   "from": "@naveen",
+   "text": "Anyone else seeing the e2e suite flake on the expense cards spec? Third red run today",
+   "ts": "2026-10-27T17:08:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00037",
+   "from": "@sneha",
+   "text": "yeah it's the timezone fixture again, I'll pin it",
+   "ts": "2026-10-27T17:17:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00038",
+   "from": "@naveen",
+   "text": "legend",
+   "ts": "2026-10-27T17:27:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00039",
+   "from": "@aman",
+   "text": "TIL our CSV export times out above 40k rows. Ticket PLAT-224 filed",
+   "ts": "2026-10-27T09:10:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00040",
+   "from": "@joseph",
+   "text": "oof, good catch",
+   "ts": "2026-10-27T09:20:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00039"
+  },
+  {
+   "id": "m_ax00041",
+   "from": "@prakash",
+   "text": "Dependabot opened 14 PRs overnight, I'm batching them into one",
+   "ts": "2026-10-27T18:30:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00042",
+   "from": "@aman",
+   "text": "bless you",
+   "ts": "2026-10-27T18:39:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00043",
+   "from": "@prakash",
+   "text": "TIL our CSV export times out above 40k rows. Ticket PLAT-220 filed",
+   "ts": "2026-10-27T09:20:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00044",
+   "from": "@mohit",
+   "text": "oof, good catch",
+   "ts": "2026-10-27T09:24:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00045",
+   "from": "@vivek",
+   "text": "Saw this and thought of the team: 'Why your on-call rotation burns people out'",
+   "ts": "2026-10-27T18:54:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00046",
+   "from": "@sneha",
+   "text": "the bit about defaults is so true",
+   "ts": "2026-10-27T18:59:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00047",
+   "from": "@aman",
+   "text": "Recommend a good laptop backpack? mine finally gave up",
+   "ts": "2026-10-27T10:30:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00048",
+   "from": "@sneha",
+   "text": "the grey one with the trolley sleeve",
+   "ts": "2026-10-27T10:35:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00049",
+   "from": "@vivek",
+   "text": "+1",
+   "ts": "2026-10-27T10:41:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00050",
+   "from": "@joseph",
+   "text": "Board game night Monday? I'll bring Codenames",
+   "ts": "2026-10-27T12:33:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00051",
+   "from": "@tara",
+   "text": "in",
+   "ts": "2026-10-27T12:35:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00052",
+   "from": "@ritika",
+   "text": "in, I'll bring snacks",
+   "ts": "2026-10-27T12:39:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00053",
+   "from": "@prakash",
+   "text": "PSA: the Koramangala flyover is closed tonight, take the service road",
+   "ts": "2026-10-27T15:39:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00054",
+   "from": "@tara",
+   "text": "thanks for the heads up",
+   "ts": "2026-10-27T15:52:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00053"
+  },
+  {
+   "id": "m_ax00055",
+   "from": "@aman",
+   "text": "PSA: the Koramangala flyover is closed tonight, take the service road",
+   "ts": "2026-10-27T15:35:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00056",
+   "from": "@joseph",
+   "text": "thanks for the heads up",
+   "ts": "2026-10-27T15:49:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00055"
+  },
+  {
+   "id": "m_ax00057",
+   "from": "@vivek",
+   "text": "[SEV3] INC-569 elevated 5xx on payouts API since 11:30. Investigating.",
+   "ts": "2026-10-27T14:12:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00058",
+   "from": "@sneha",
+   "text": "looking at the worker queue",
+   "ts": "2026-10-27T14:23:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00059",
+   "from": "@vivek",
+   "text": "Rolled back 4.19.1, error rate recovering",
+   "ts": "2026-10-27T14:30:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00060",
+   "from": "@vivek",
+   "text": "INC-569 resolved. RCA to follow in the doc.",
+   "ts": "2026-10-27T14:43:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00061",
+   "from": "@ishita",
+   "text": "[SEV3] INC-573 elevated 5xx on payouts API since 4:30. Investigating.",
+   "ts": "2026-10-27T18:39:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00062",
+   "from": "@vivek",
+   "text": "looking at the worker queue",
+   "ts": "2026-10-27T18:43:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00063",
+   "from": "@ishita",
+   "text": "Rolled back 4.23.6, error rate recovering",
+   "ts": "2026-10-27T18:50:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00064",
+   "from": "@ishita",
+   "text": "INC-573 resolved. RCA to follow in the doc.",
+   "ts": "2026-10-27T18:58:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00065",
+   "from": "@naveen",
+   "text": "There's cake in the pantry, it's @prakash's birthday 🎂",
+   "ts": "2026-10-27T10:26:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00066",
+   "from": "@tara",
+   "text": "happy birthday!",
+   "ts": "2026-10-27T10:32:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00067",
+   "from": "@prakash",
+   "text": "🥹 thank you",
+   "ts": "2026-10-27T10:35:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00068",
+   "from": "@mohit",
+   "text": "Lunch at Biryani Junction? leaving at 1:15",
+   "ts": "2026-10-27T18:36:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00069",
+   "from": "@sneha",
+   "text": "in",
+   "ts": "2026-10-27T18:39:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00070",
+   "from": "@naveen",
+   "text": "in, save me a seat",
+   "ts": "2026-10-27T18:46:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00071",
+   "from": "@joseph",
+   "text": "Who left the paneer in the fridge since Monday",
+   "ts": "2026-10-27T10:18:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00072",
+   "from": "@sneha",
+   "text": "not me",
+   "ts": "2026-10-27T10:26:00+05:30",
+   "channel": "#koramangala-office",
+   "thread_id": "m_ax00071"
+  },
+  {
+   "id": "m_ax00073",
+   "from": "@ishita",
+   "text": "...possibly me",
+   "ts": "2026-10-27T10:29:00+05:30",
+   "channel": "#koramangala-office",
+   "thread_id": "m_ax00071"
+  },
+  {
+   "id": "m_ax00074",
+   "from": "@sneha",
+   "text": "Chai run at 4, anyone?",
+   "ts": "2026-10-27T16:59:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00075",
+   "from": "@ishita",
+   "text": "yes",
+   "ts": "2026-10-27T17:03:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00076",
+   "from": "@aman",
+   "text": "2 please",
+   "ts": "2026-10-27T17:15:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00077",
+   "from": "@sneha",
+   "text": "Ordering from Third Wave Canteen, anyone want to add? closing in 10",
+   "ts": "2026-10-27T11:40:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00078",
+   "from": "@vivek",
+   "text": "one veg thali please",
+   "ts": "2026-10-27T11:43:00+05:30",
+   "channel": "#koramangala-office",
+   "thread_id": "m_ax00077"
+  },
+  {
+   "id": "m_ax00079",
+   "from": "@sneha",
+   "text": "Chai run at 4, anyone?",
+   "ts": "2026-10-27T14:30:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00080",
+   "from": "@joseph",
+   "text": "yes",
+   "ts": "2026-10-27T14:43:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00081",
+   "from": "@deepa",
+   "text": "2 please",
+   "ts": "2026-10-27T14:46:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00082",
+   "from": "@sneha",
+   "text": "Laptop refresh: anyone know if we get to pick 14 or 16 inch?",
+   "ts": "2026-10-27T12:31:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00083",
+   "from": "@tara",
+   "text": "16 for design and eng, 14 for everyone else",
+   "ts": "2026-10-27T12:34:00+05:30",
+   "channel": "#help-it",
+   "thread_id": "m_ax00082"
+  },
+  {
+   "id": "m_ax00084",
+   "from": "@aman",
+   "text": "VPN keeps dropping every 20 min on the new client, anyone else?",
+   "ts": "2026-10-27T16:57:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00085",
+   "from": "@prakash",
+   "text": "IT pushed a fix, restart it",
+   "ts": "2026-10-27T17:07:00+05:30",
+   "channel": "#help-it",
+   "thread_id": "m_ax00084"
+  },
+  {
+   "id": "m_ax00086",
+   "from": "@aman",
+   "text": "thanks!",
+   "ts": "2026-10-27T17:13:00+05:30",
+   "channel": "#help-it",
+   "thread_id": "m_ax00084"
+  },
+  {
+   "id": "m_ax00087",
+   "from": "@ishita",
+   "text": "Bundle size went up 11% last week, mostly the charts lib",
+   "ts": "2026-10-27T17:22:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00088",
+   "from": "@ritika",
+   "text": "let's lazy-load it",
+   "ts": "2026-10-27T17:23:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00089",
+   "from": "@ishita",
+   "text": "Bundle size went up 17% last week, mostly the charts lib",
+   "ts": "2026-10-27T15:31:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00090",
+   "from": "@sneha",
+   "text": "let's lazy-load it",
+   "ts": "2026-10-27T15:42:00+05:30",
+   "channel": "#fe-guild",
+   "thread_id": "m_ax00089"
+  },
+  {
+   "id": "m_ax00091",
+   "from": "@naveen",
+   "text": "fyi the dark mode tokens build is on staging if you want to poke at it",
+   "ts": "2026-10-27T14:08:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00092",
+   "from": "@arjun",
+   "text": "nice, will try it after lunch",
+   "ts": "2026-10-27T14:14:00+05:30",
+   "to": "@naveen"
+  },
+  {
+   "id": "m_ax00093",
+   "from": "@vivek",
+   "text": "heads up I'm out Monday, @vivek will cover my reviews",
+   "ts": "2026-10-27T16:27:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00094",
+   "from": "@arjun",
+   "text": "ok cool, have a good one",
+   "ts": "2026-10-27T16:34:00+05:30",
+   "to": "@vivek"
+  },
+  {
+   "id": "m_ax00095",
+   "from": "@mohit",
+   "text": "did you see 'Designing for slow networks in tier-2 cities'? very us",
+   "ts": "2026-10-27T10:20:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00096",
+   "from": "@arjun",
+   "text": "painfully us 😅",
+   "ts": "2026-10-27T10:25:00+05:30",
+   "to": "@mohit"
+  },
+  {
+   "id": "m_ax00123",
+   "from": "@vivek",
+   "text": "Settlement batch for yesterday ran clean, 14 payouts, zero retries",
+   "ts": "2026-10-28T11:16:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00124",
+   "from": "@aman",
+   "text": "👍",
+   "ts": "2026-10-28T11:17:00+05:30",
+   "channel": "#payments-team",
+   "thread_id": "m_ax00123"
+  },
+  {
+   "id": "m_ax00125",
+   "from": "@deepa",
+   "text": "Partner bank is doing maintenance Friday 1-3 am, payouts will queue",
+   "ts": "2026-10-28T14:14:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00126",
+   "from": "@aman",
+   "text": "added to the status page",
+   "ts": "2026-10-28T14:18:00+05:30",
+   "channel": "#payments-team",
+   "thread_id": "m_ax00125"
+  },
+  {
+   "id": "m_ax00127",
+   "from": "@aman",
+   "text": "Can someone review the UPI mandate copy? needs to go to compliance by Monday",
+   "ts": "2026-10-28T16:30:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00128",
+   "from": "@vivek",
+   "text": "on it",
+   "ts": "2026-10-28T16:36:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00129",
+   "from": "@deepa",
+   "text": "Partner bank is doing maintenance Friday 1-3 am, payouts will queue",
+   "ts": "2026-10-28T17:26:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00130",
+   "from": "@vivek",
+   "text": "added to the status page",
+   "ts": "2026-10-28T17:30:00+05:30",
+   "channel": "#payments-team",
+   "thread_id": "m_ax00129"
+  },
+  {
+   "id": "m_ax00131",
+   "from": "@vivek",
+   "text": "Welcome to our new joiners this week! Say hi 👋",
+   "ts": "2026-10-28T14:50:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00132",
+   "from": "@sneha",
+   "text": "welcome!",
+   "ts": "2026-10-28T14:56:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00133",
+   "from": "@joseph",
+   "text": "👋👋",
+   "ts": "2026-10-28T15:02:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00134",
+   "from": "@tara",
+   "text": "Welcome to our new joiners this week! Say hi 👋",
+   "ts": "2026-10-28T11:50:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00135",
+   "from": "@naveen",
+   "text": "welcome!",
+   "ts": "2026-10-28T11:54:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00136",
+   "from": "@prakash",
+   "text": "👋👋",
+   "ts": "2026-10-28T12:06:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00137",
+   "from": "@deepa",
+   "text": "Monthly metrics are in the deck: time to first invoice up 19%, time to first invoice flat",
+   "ts": "2026-10-28T18:39:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00138",
+   "from": "@mohit",
+   "text": "great work everyone",
+   "ts": "2026-10-28T18:41:00+05:30",
+   "channel": "#general",
+   "thread_id": "m_ax00137"
+  },
+  {
+   "id": "m_ax00139",
+   "from": "@vivek",
+   "text": "Congrats to @joseph on 8 years at Ledgerly! 🎉",
+   "ts": "2026-10-28T09:40:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00140",
+   "from": "@deepa",
+   "text": "🎉🎉",
+   "ts": "2026-10-28T09:42:00+05:30",
+   "channel": "#general",
+   "thread_id": "m_ax00139"
+  },
+  {
+   "id": "m_ax00141",
+   "from": "@joseph",
+   "text": "thank you all!",
+   "ts": "2026-10-28T09:49:00+05:30",
+   "channel": "#general",
+   "thread_id": "m_ax00139"
+  },
+  {
+   "id": "m_ax00142",
+   "from": "@sneha",
+   "text": "on-call handover: quiet week, one page for disk on worker-3, resolved. @ishita you're up",
+   "ts": "2026-10-28T10:35:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00143",
+   "from": "@ishita",
+   "text": "🔥 🫡",
+   "ts": "2026-10-28T10:40:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00142"
+  },
+  {
+   "id": "m_ax00144",
+   "from": "@sneha",
+   "text": "Dependabot opened 14 PRs overnight, I'm batching them into one",
+   "ts": "2026-10-28T13:39:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00145",
+   "from": "@ishita",
+   "text": "bless you",
+   "ts": "2026-10-28T13:52:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00144"
+  },
+  {
+   "id": "m_ax00146",
+   "from": "@joseph",
+   "text": "Is the global search endpoint supposed to return 200 with an empty list or 404?",
+   "ts": "2026-10-28T09:01:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00147",
+   "from": "@mohit",
+   "text": "200 + empty list, 404 only if the account doesn't exist",
+   "ts": "2026-10-28T09:10:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00148",
+   "from": "@joseph",
+   "text": "ok updating the client",
+   "ts": "2026-10-28T09:21:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00149",
+   "from": "@prakash",
+   "text": "who owns the global search feature flag? it's been at 50% for three weeks",
+   "ts": "2026-10-28T12:41:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00150",
+   "from": "@sneha",
+   "text": "@ishita I think",
+   "ts": "2026-10-28T12:51:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00151",
+   "from": "@ishita",
+   "text": "mine, rolling to 100 tomorrow if metrics hold",
+   "ts": "2026-10-28T12:55:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00152",
+   "from": "@mohit",
+   "text": "Anyone else seeing the e2e suite flake on the password reset spec? Third red run today",
+   "ts": "2026-10-28T16:15:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00153",
+   "from": "@joseph",
+   "text": "yeah it's the timezone fixture again, I'll pin it",
+   "ts": "2026-10-28T16:26:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00154",
+   "from": "@mohit",
+   "text": "legend",
+   "ts": "2026-10-28T16:33:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00155",
+   "from": "@mohit",
+   "text": "Heads up, I'm rotating the staging DB credentials at after lunch. Expect 2 min of errors.",
+   "ts": "2026-10-28T17:34:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00156",
+   "from": "@sneha",
+   "text": "lgtm",
+   "ts": "2026-10-28T17:35:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00157",
+   "from": "@naveen",
+   "text": "Reminder: code freeze for the 4.20.8 branch is Tuesday 6 pm",
+   "ts": "2026-10-28T17:34:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00158",
+   "from": "@joseph",
+   "text": "🙏",
+   "ts": "2026-10-28T17:41:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00159",
+   "from": "@naveen",
+   "text": "TIL our CSV export times out above 40k rows. Ticket PAY-708 filed",
+   "ts": "2026-10-28T14:00:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00160",
+   "from": "@prakash",
+   "text": "oof, good catch",
+   "ts": "2026-10-28T14:05:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00161",
+   "from": "@naveen",
+   "text": "p95 on /v1/invoices went from 383ms to 383ms after yesterday's deploy, digging",
+   "ts": "2026-10-28T10:28:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00162",
+   "from": "@ishita",
+   "text": "probably the new join, check the query plan",
+   "ts": "2026-10-28T10:41:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00163",
+   "from": "@naveen",
+   "text": "yep, missing index. Fix in #2406",
+   "ts": "2026-10-28T10:43:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00164",
+   "from": "@sneha",
+   "text": "Anyone else seeing the e2e suite flake on the help centre spec? Third red run today",
+   "ts": "2026-10-28T13:51:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00165",
+   "from": "@prakash",
+   "text": "yeah it's the timezone fixture again, I'll pin it",
+   "ts": "2026-10-28T13:54:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00166",
+   "from": "@sneha",
+   "text": "legend",
+   "ts": "2026-10-28T13:55:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00167",
+   "from": "@prakash",
+   "text": "Dependabot opened 14 PRs overnight, I'm batching them into one",
+   "ts": "2026-10-28T14:42:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00168",
+   "from": "@sneha",
+   "text": "bless you",
+   "ts": "2026-10-28T14:47:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00169",
+   "from": "@sneha",
+   "text": "Recommend a good laptop backpack? mine finally gave up",
+   "ts": "2026-10-28T13:59:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00170",
+   "from": "@naveen",
+   "text": "the grey one with the trolley sleeve",
+   "ts": "2026-10-28T14:06:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00171",
+   "from": "@tara",
+   "text": "+1",
+   "ts": "2026-10-28T14:20:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00172",
+   "from": "@sneha",
+   "text": "Saw this and thought of the team: 'A field guide to empty-state copy'",
+   "ts": "2026-10-28T12:04:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00173",
+   "from": "@naveen",
+   "text": "the bit about defaults is so true",
+   "ts": "2026-10-28T12:17:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00172"
+  },
+  {
+   "id": "m_ax00174",
+   "from": "@prakash",
+   "text": "PSA: the Koramangala flyover is closed tonight, take the service road",
+   "ts": "2026-10-28T16:06:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00175",
+   "from": "@sneha",
+   "text": "thanks for the heads up",
+   "ts": "2026-10-28T16:13:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00174"
+  },
+  {
+   "id": "m_ax00176",
+   "from": "@ritika",
+   "text": "PSA: the Koramangala flyover is closed tonight, take the service road",
+   "ts": "2026-10-28T17:43:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00177",
+   "from": "@naveen",
+   "text": "thanks for the heads up",
+   "ts": "2026-10-28T17:49:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00176"
+  },
+  {
+   "id": "m_ax00178",
+   "from": "@prakash",
+   "text": "Today's office playlist is entirely 90s Bollywood and I'm not complaining",
+   "ts": "2026-10-28T13:11:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00179",
+   "from": "@sneha",
+   "text": "who's DJing",
+   "ts": "2026-10-28T13:20:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00178"
+  },
+  {
+   "id": "m_ax00180",
+   "from": "@prakash",
+   "text": "@mohit obviously",
+   "ts": "2026-10-28T13:22:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00178"
+  },
+  {
+   "id": "m_ax00181",
+   "from": "@tara",
+   "text": "Board game night Wednesday? I'll bring Codenames",
+   "ts": "2026-10-28T16:27:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00182",
+   "from": "@ritika",
+   "text": "in",
+   "ts": "2026-10-28T16:36:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00181"
+  },
+  {
+   "id": "m_ax00183",
+   "from": "@prakash",
+   "text": "in, I'll bring snacks",
+   "ts": "2026-10-28T16:44:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00181"
+  },
+  {
+   "id": "m_ax00184",
+   "from": "@sneha",
+   "text": "[SEV3] INC-456 elevated 5xx on payouts API since 2. Investigating.",
+   "ts": "2026-10-28T15:30:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00185",
+   "from": "@naveen",
+   "text": "looking at the worker queue",
+   "ts": "2026-10-28T15:32:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00186",
+   "from": "@sneha",
+   "text": "Rolled back 4.22.8, error rate recovering",
+   "ts": "2026-10-28T15:35:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00187",
+   "from": "@sneha",
+   "text": "INC-456 resolved. RCA to follow in the doc.",
+   "ts": "2026-10-28T15:40:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00188",
+   "from": "@aman",
+   "text": "[SEV3] INC-556 login latency spike in ap-south, p95 1314ms",
+   "ts": "2026-10-28T18:26:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00189",
+   "from": "@mohit",
+   "text": "cache node restarted, back to normal",
+   "ts": "2026-10-28T18:35:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00190",
+   "from": "@sneha",
+   "text": "[SEV4] INC-564 delayed emails from the notification service, ~17 min lag",
+   "ts": "2026-10-28T16:47:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00191",
+   "from": "@mohit",
+   "text": "queue drained, closing",
+   "ts": "2026-10-28T16:50:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00192",
+   "from": "@sneha",
+   "text": "Ordering from The Bowl Co., anyone want to add? closing in 10",
+   "ts": "2026-10-28T11:16:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00193",
+   "from": "@deepa",
+   "text": "one veg thali please",
+   "ts": "2026-10-28T11:18:00+05:30",
+   "channel": "#koramangala-office",
+   "thread_id": "m_ax00192"
+  },
+  {
+   "id": "m_ax00194",
+   "from": "@naveen",
+   "text": "Ordering from Udupi Express, anyone want to add? closing in 10",
+   "ts": "2026-10-28T11:47:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00195",
+   "from": "@joseph",
+   "text": "one veg thali please",
+   "ts": "2026-10-28T11:49:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00196",
+   "from": "@naveen",
+   "text": "Chai run at 4, anyone?",
+   "ts": "2026-10-28T18:15:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00197",
+   "from": "@ishita",
+   "text": "yes",
+   "ts": "2026-10-28T18:17:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00198",
+   "from": "@vivek",
+   "text": "2 please",
+   "ts": "2026-10-28T18:21:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00199",
+   "from": "@joseph",
+   "text": "Laptop refresh: anyone know if we get to pick 14 or 16 inch?",
+   "ts": "2026-10-28T17:20:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00200",
+   "from": "@tara",
+   "text": "16 for design and eng, 14 for everyone else",
+   "ts": "2026-10-28T17:29:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00201",
+   "from": "@joseph",
+   "text": "Laptop refresh: anyone know if we get to pick 14 or 16 inch?",
+   "ts": "2026-10-28T13:55:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00202",
+   "from": "@ishita",
+   "text": "16 for design and eng, 14 for everyone else",
+   "ts": "2026-10-28T14:02:00+05:30",
+   "channel": "#help-it",
+   "thread_id": "m_ax00201"
+  },
+  {
+   "id": "m_ax00203",
+   "from": "@sneha",
+   "text": "Storybook is deployed for the invoices list, link in the PR",
+   "ts": "2026-10-28T09:33:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00204",
+   "from": "@ritika",
+   "text": "this is so helpful",
+   "ts": "2026-10-28T09:38:00+05:30",
+   "channel": "#fe-guild",
+   "thread_id": "m_ax00203"
+  },
+  {
+   "id": "m_ax00205",
+   "from": "@ritika",
+   "text": "Bundle size went up 18% last week, mostly the charts lib",
+   "ts": "2026-10-28T16:52:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00206",
+   "from": "@ishita",
+   "text": "let's lazy-load it",
+   "ts": "2026-10-28T17:01:00+05:30",
+   "channel": "#fe-guild",
+   "thread_id": "m_ax00205"
+  },
+  {
+   "id": "m_ax00207",
+   "from": "@sneha",
+   "text": "Upgrading the component library to the new major, expect a big PR #2490",
+   "ts": "2026-10-28T18:11:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00208",
+   "from": "@ishita",
+   "text": "brave",
+   "ts": "2026-10-28T18:19:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00209",
+   "from": "@sneha",
+   "text": "🫡",
+   "ts": "2026-10-28T18:33:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00210",
+   "from": "@sneha",
+   "text": "Upgrading the component library to the new major, expect a big PR #1873",
+   "ts": "2026-10-28T11:02:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00211",
+   "from": "@ritika",
+   "text": "brave",
+   "ts": "2026-10-28T11:05:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00212",
+   "from": "@sneha",
+   "text": "🫡",
+   "ts": "2026-10-28T11:19:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00213",
+   "from": "@ritika",
+   "text": "Reminder: no new usages of the old Modal, use Dialog",
+   "ts": "2026-10-28T15:34:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00214",
+   "from": "@ishita",
+   "text": "ok cool",
+   "ts": "2026-10-28T15:45:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00215",
+   "from": "@vivek",
+   "text": "did you see 'What we learned shipping dark mode to 2M users'? very us",
+   "ts": "2026-10-28T13:06:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00216",
+   "from": "@arjun",
+   "text": "painfully us 😅",
+   "ts": "2026-10-28T13:18:00+05:30",
+   "to": "@vivek"
+  },
+  {
+   "id": "m_ax00217",
+   "from": "@mohit",
+   "text": "saw the new team invites mocks, they look 🔥",
+   "ts": "2026-10-28T14:18:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00218",
+   "from": "@arjun",
+   "text": "ha thanks, still rough",
+   "ts": "2026-10-28T14:30:00+05:30",
+   "to": "@mohit"
+  },
+  {
+   "id": "m_ax00219",
+   "from": "@mohit",
+   "text": "heads up I'm out Thursday, @mohit will cover my reviews",
+   "ts": "2026-10-28T18:29:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00220",
+   "from": "@arjun",
+   "text": "on it, have a good one",
+   "ts": "2026-10-28T18:34:00+05:30",
+   "to": "@mohit"
+  },
+  {
+   "id": "m_ax00237",
+   "from": "@vivek",
+   "text": "Chargeback rate this month is 15% lower than last, the new descriptor copy helped",
+   "ts": "2026-10-29T15:14:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00238",
+   "from": "@deepa",
+   "text": "nice! sharing with support",
+   "ts": "2026-10-29T15:20:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00239",
+   "from": "@aman",
+   "text": "Partner bank is doing maintenance Thursday 1-3 am, payouts will queue",
+   "ts": "2026-10-29T18:17:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00240",
+   "from": "@deepa",
+   "text": "added to the status page",
+   "ts": "2026-10-29T18:19:00+05:30",
+   "channel": "#payments-team",
+   "thread_id": "m_ax00239"
+  },
+  {
+   "id": "m_ax00241",
+   "from": "@deepa",
+   "text": "Settlement batch for yesterday ran clean, 11 payouts, zero retries",
+   "ts": "2026-10-29T17:19:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00242",
+   "from": "@sneha",
+   "text": "on it",
+   "ts": "2026-10-29T17:31:00+05:30",
+   "channel": "#payments-team",
+   "thread_id": "m_ax00241"
+  },
+  {
+   "id": "m_ax00243",
+   "from": "@deepa",
+   "text": "Chargeback rate this month is 19% lower than last, the new descriptor copy helped",
+   "ts": "2026-10-29T14:37:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00244",
+   "from": "@sneha",
+   "text": "nice! sharing with support",
+   "ts": "2026-10-29T14:44:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00245",
+   "from": "@deepa",
+   "text": "Can someone review the UPI mandate copy? needs to go to compliance by Wednesday",
+   "ts": "2026-10-29T09:16:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00246",
+   "from": "@aman",
+   "text": "on it",
+   "ts": "2026-10-29T09:18:00+05:30",
+   "channel": "#payments-team",
+   "thread_id": "m_ax00245"
+  },
+  {
+   "id": "m_ax00247",
+   "from": "@vivek",
+   "text": "Chargeback rate this month is 4% lower than last, the new descriptor copy helped",
+   "ts": "2026-10-29T17:51:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00248",
+   "from": "@sneha",
+   "text": "nice! sharing with support",
+   "ts": "2026-10-29T17:52:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00249",
+   "from": "@sneha",
+   "text": "Monthly metrics are in the deck: crash-free sessions up 11%, crash-free sessions flat",
+   "ts": "2026-10-29T13:57:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00250",
+   "from": "@ritika",
+   "text": "great work everyone",
+   "ts": "2026-10-29T13:59:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00251",
+   "from": "@sneha",
+   "text": "Congrats to @ishita on 9 years at Ledgerly! 🎉",
+   "ts": "2026-10-29T15:04:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00252",
+   "from": "@aman",
+   "text": "🎉🎉",
+   "ts": "2026-10-29T15:10:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00253",
+   "from": "@ishita",
+   "text": "thank you all!",
+   "ts": "2026-10-29T15:12:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00254",
+   "from": "@ishita",
+   "text": "Congrats to @vivek on 6 years at Ledgerly! 🎉",
+   "ts": "2026-10-29T09:59:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00255",
+   "from": "@deepa",
+   "text": "🎉🎉",
+   "ts": "2026-10-29T10:04:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00256",
+   "from": "@vivek",
+   "text": "thank you all!",
+   "ts": "2026-10-29T10:09:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00257",
+   "from": "@ritika",
+   "text": "Monthly metrics are in the deck: trial-to-paid up 16%, trial-to-paid flat",
+   "ts": "2026-10-29T17:39:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00258",
+   "from": "@ishita",
+   "text": "great work everyone",
+   "ts": "2026-10-29T17:46:00+05:30",
+   "channel": "#general",
+   "thread_id": "m_ax00257"
+  },
+  {
+   "id": "m_ax00259",
+   "from": "@ishita",
+   "text": "Is the icon set endpoint supposed to return 200 with an empty list or 404?",
+   "ts": "2026-10-29T10:50:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00260",
+   "from": "@aman",
+   "text": "200 + empty list, 404 only if the account doesn't exist",
+   "ts": "2026-10-29T10:53:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00259"
+  },
+  {
+   "id": "m_ax00261",
+   "from": "@ishita",
+   "text": "ok updating the client",
+   "ts": "2026-10-29T11:05:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00259"
+  },
+  {
+   "id": "m_ax00262",
+   "from": "@sneha",
+   "text": "Deploying 4.18.4 to staging, shout if anything looks off",
+   "ts": "2026-10-29T09:48:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00263",
+   "from": "@naveen",
+   "text": "+1",
+   "ts": "2026-10-29T09:55:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00262"
+  },
+  {
+   "id": "m_ax00264",
+   "from": "@sneha",
+   "text": "Staging is green. Prod at 2:30.",
+   "ts": "2026-10-29T10:06:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00262"
+  },
+  {
+   "id": "m_ax00265",
+   "from": "@prakash",
+   "text": "Deploying 4.25.8 to staging, shout if anything looks off",
+   "ts": "2026-10-29T11:45:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00266",
+   "from": "@aman",
+   "text": "sounds good",
+   "ts": "2026-10-29T11:55:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00267",
+   "from": "@prakash",
+   "text": "Staging is green. Prod at 4.",
+   "ts": "2026-10-29T12:03:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00268",
+   "from": "@mohit",
+   "text": "Deploying 4.18.1 to staging, shout if anything looks off",
+   "ts": "2026-10-29T14:27:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00269",
+   "from": "@joseph",
+   "text": "🔥",
+   "ts": "2026-10-29T14:33:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00270",
+   "from": "@mohit",
+   "text": "Staging is green. Prod at 2:30.",
+   "ts": "2026-10-29T14:46:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00271",
+   "from": "@sneha",
+   "text": "Release notes for 4.19.2 are in the doc, please add anything I missed by EOD",
+   "ts": "2026-10-29T16:40:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00272",
+   "from": "@aman",
+   "text": "added the bank linking fix",
+   "ts": "2026-10-29T16:53:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00273",
+   "from": "@joseph",
+   "text": "Dependabot opened 14 PRs overnight, I'm batching them into one",
+   "ts": "2026-10-29T12:05:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00274",
+   "from": "@mohit",
+   "text": "bless you",
+   "ts": "2026-10-29T12:12:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00273"
+  },
+  {
+   "id": "m_ax00275",
+   "from": "@prakash",
+   "text": "Release notes for 4.23.9 are in the doc, please add anything I missed by EOD",
+   "ts": "2026-10-29T12:19:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00276",
+   "from": "@mohit",
+   "text": "added the password reset fix",
+   "ts": "2026-10-29T12:27:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00277",
+   "from": "@prakash",
+   "text": "Is the team invites endpoint supposed to return 200 with an empty list or 404?",
+   "ts": "2026-10-29T12:18:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00278",
+   "from": "@vivek",
+   "text": "200 + empty list, 404 only if the account doesn't exist",
+   "ts": "2026-10-29T12:30:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00279",
+   "from": "@prakash",
+   "text": "ok updating the client",
+   "ts": "2026-10-29T12:38:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00280",
+   "from": "@vivek",
+   "text": "PSA: the Koramangala flyover is closed tonight, take the service road",
+   "ts": "2026-10-29T14:13:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00281",
+   "from": "@sneha",
+   "text": "thanks for the heads up",
+   "ts": "2026-10-29T14:19:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00280"
+  },
+  {
+   "id": "m_ax00282",
+   "from": "@mohit",
+   "text": "Recommend a good laptop backpack? mine finally gave up",
+   "ts": "2026-10-29T12:20:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00283",
+   "from": "@vivek",
+   "text": "the grey one with the trolley sleeve",
+   "ts": "2026-10-29T12:25:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00284",
+   "from": "@joseph",
+   "text": "+1",
+   "ts": "2026-10-29T12:33:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00285",
+   "from": "@vivek",
+   "text": "Anyone watching the Malayalam thriller? need someone to talk to about episode 2",
+   "ts": "2026-10-29T14:21:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00286",
+   "from": "@aman",
+   "text": "no spoilers I'm one behind",
+   "ts": "2026-10-29T14:22:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00285"
+  },
+  {
+   "id": "m_ax00287",
+   "from": "@aman",
+   "text": "Saw this and thought of the team: 'What we learned shipping dark mode to 2M users'",
+   "ts": "2026-10-29T11:02:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00288",
+   "from": "@sneha",
+   "text": "the bit about defaults is so true",
+   "ts": "2026-10-29T11:13:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00287"
+  },
+  {
+   "id": "m_ax00289",
+   "from": "@joseph",
+   "text": "Board game night Wednesday? I'll bring Codenames",
+   "ts": "2026-10-29T13:21:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00290",
+   "from": "@ishita",
+   "text": "in",
+   "ts": "2026-10-29T13:26:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00291",
+   "from": "@tara",
+   "text": "in, I'll bring snacks",
+   "ts": "2026-10-29T13:28:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00292",
+   "from": "@aman",
+   "text": "Anyone watching the new F1 documentary? need someone to talk to about episode 2",
+   "ts": "2026-10-29T14:12:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00293",
+   "from": "@deepa",
+   "text": "no spoilers I'm one behind",
+   "ts": "2026-10-29T14:24:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00294",
+   "from": "@ritika",
+   "text": "Board game night Thursday? I'll bring Codenames",
+   "ts": "2026-10-29T18:46:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00295",
+   "from": "@aman",
+   "text": "in",
+   "ts": "2026-10-29T18:47:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00294"
+  },
+  {
+   "id": "m_ax00296",
+   "from": "@prakash",
+   "text": "in, I'll bring snacks",
+   "ts": "2026-10-29T18:59:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00294"
+  },
+  {
+   "id": "m_ax00297",
+   "from": "@deepa",
+   "text": "Saw this and thought of the team: 'UPI autopay: what product teams get wrong'",
+   "ts": "2026-10-29T10:22:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00298",
+   "from": "@mohit",
+   "text": "the bit about defaults is so true",
+   "ts": "2026-10-29T10:28:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00299",
+   "from": "@prakash",
+   "text": "[SEV3] INC-500 elevated 5xx on payouts API since 3. Investigating.",
+   "ts": "2026-10-29T14:29:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00300",
+   "from": "@ishita",
+   "text": "looking at the worker queue",
+   "ts": "2026-10-29T14:43:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00301",
+   "from": "@prakash",
+   "text": "Rolled back 4.21.3, error rate recovering",
+   "ts": "2026-10-29T14:57:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00302",
+   "from": "@prakash",
+   "text": "INC-500 resolved. RCA to follow in the doc.",
+   "ts": "2026-10-29T15:10:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00303",
+   "from": "@aman",
+   "text": "[SEV4] INC-411 delayed emails from the notification service, ~47 min lag",
+   "ts": "2026-10-29T18:58:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00304",
+   "from": "@vivek",
+   "text": "queue drained, closing",
+   "ts": "2026-10-29T19:03:00+05:30",
+   "channel": "#incidents",
+   "thread_id": "m_ax00303"
+  },
+  {
+   "id": "m_ax00305",
+   "from": "@sneha",
+   "text": "[SEV3] INC-445 elevated 5xx on payouts API since 2. Investigating.",
+   "ts": "2026-10-29T18:58:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00306",
+   "from": "@prakash",
+   "text": "looking at the worker queue",
+   "ts": "2026-10-29T19:08:00+05:30",
+   "channel": "#incidents",
+   "thread_id": "m_ax00305"
+  },
+  {
+   "id": "m_ax00307",
+   "from": "@sneha",
+   "text": "Rolled back 4.19.1, error rate recovering",
+   "ts": "2026-10-29T19:18:00+05:30",
+   "channel": "#incidents",
+   "thread_id": "m_ax00305"
+  },
+  {
+   "id": "m_ax00308",
+   "from": "@sneha",
+   "text": "INC-445 resolved. RCA to follow in the doc.",
+   "ts": "2026-10-29T19:28:00+05:30",
+   "channel": "#incidents",
+   "thread_id": "m_ax00305"
+  },
+  {
+   "id": "m_ax00309",
+   "from": "@aman",
+   "text": "Ordering from Koramangala Social Kitchen, anyone want to add? closing in 10",
+   "ts": "2026-10-29T13:20:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00310",
+   "from": "@deepa",
+   "text": "one veg thali please",
+   "ts": "2026-10-29T13:30:00+05:30",
+   "channel": "#koramangala-office",
+   "thread_id": "m_ax00309"
+  },
+  {
+   "id": "m_ax00311",
+   "from": "@tara",
+   "text": "Chai run at 4, anyone?",
+   "ts": "2026-10-29T18:41:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00312",
+   "from": "@sneha",
+   "text": "yes",
+   "ts": "2026-10-29T18:50:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00313",
+   "from": "@ishita",
+   "text": "2 please",
+   "ts": "2026-10-29T19:04:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00314",
+   "from": "@vivek",
+   "text": "Who left the paneer in the fridge since Monday",
+   "ts": "2026-10-29T11:43:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00315",
+   "from": "@ritika",
+   "text": "not me",
+   "ts": "2026-10-29T11:48:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00316",
+   "from": "@mohit",
+   "text": "...possibly me",
+   "ts": "2026-10-29T11:55:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00317",
+   "from": "@joseph",
+   "text": "Ordering from Biryani Junction, anyone want to add? closing in 10",
+   "ts": "2026-10-29T11:16:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00318",
+   "from": "@tara",
+   "text": "one veg thali please",
+   "ts": "2026-10-29T11:25:00+05:30",
+   "channel": "#koramangala-office",
+   "thread_id": "m_ax00317"
+  },
+  {
+   "id": "m_ax00319",
+   "from": "@sneha",
+   "text": "There's cake in the pantry, it's @joseph's birthday 🎂",
+   "ts": "2026-10-29T17:30:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00320",
+   "from": "@vivek",
+   "text": "happy birthday!",
+   "ts": "2026-10-29T17:39:00+05:30",
+   "channel": "#koramangala-office",
+   "thread_id": "m_ax00319"
+  },
+  {
+   "id": "m_ax00321",
+   "from": "@joseph",
+   "text": "🥹 thank you",
+   "ts": "2026-10-29T17:40:00+05:30",
+   "channel": "#koramangala-office",
+   "thread_id": "m_ax00319"
+  },
+  {
+   "id": "m_ax00322",
+   "from": "@mohit",
+   "text": "Who left the paneer in the fridge since Monday",
+   "ts": "2026-10-29T13:37:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00323",
+   "from": "@naveen",
+   "text": "not me",
+   "ts": "2026-10-29T13:43:00+05:30",
+   "channel": "#koramangala-office",
+   "thread_id": "m_ax00322"
+  },
+  {
+   "id": "m_ax00324",
+   "from": "@prakash",
+   "text": "...possibly me",
+   "ts": "2026-10-29T13:48:00+05:30",
+   "channel": "#koramangala-office",
+   "thread_id": "m_ax00322"
+  },
+  {
+   "id": "m_ax00325",
+   "from": "@vivek",
+   "text": "How do I get a Pixelboard editor seat?",
+   "ts": "2026-10-29T13:47:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00326",
+   "from": "@joseph",
+   "text": "raise a ticket with IT, takes a day",
+   "ts": "2026-10-29T13:54:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00327",
+   "from": "@sneha",
+   "text": "Laptop refresh: anyone know if we get to pick 14 or 16 inch?",
+   "ts": "2026-10-29T17:16:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00328",
+   "from": "@deepa",
+   "text": "16 for design and eng, 14 for everyone else",
+   "ts": "2026-10-29T17:23:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00329",
+   "from": "@ishita",
+   "text": "Upgrading the component library to the new major, expect a big PR #1964",
+   "ts": "2026-10-29T17:37:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00330",
+   "from": "@sneha",
+   "text": "brave",
+   "ts": "2026-10-29T17:43:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00331",
+   "from": "@ishita",
+   "text": "🫡",
+   "ts": "2026-10-29T17:52:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00332",
+   "from": "@ishita",
+   "text": "Reminder: no new usages of the old Modal, use Dialog",
+   "ts": "2026-10-29T15:32:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00333",
+   "from": "@ritika",
+   "text": "ok cool",
+   "ts": "2026-10-29T15:42:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00334",
+   "from": "@ishita",
+   "text": "Upgrading the component library to the new major, expect a big PR #2570",
+   "ts": "2026-10-29T17:23:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00335",
+   "from": "@sneha",
+   "text": "brave",
+   "ts": "2026-10-29T17:35:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00336",
+   "from": "@ishita",
+   "text": "🫡",
+   "ts": "2026-10-29T17:38:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00337",
+   "from": "@ishita",
+   "text": "Bundle size went up 9% last week, mostly the charts lib",
+   "ts": "2026-10-29T18:40:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00338",
+   "from": "@ritika",
+   "text": "let's lazy-load it",
+   "ts": "2026-10-29T18:46:00+05:30",
+   "channel": "#fe-guild",
+   "thread_id": "m_ax00337"
+  },
+  {
+   "id": "m_ax00339",
+   "from": "@sneha",
+   "text": "Reminder: no new usages of the old Modal, use Dialog",
+   "ts": "2026-10-29T16:36:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00340",
+   "from": "@ritika",
+   "text": "👍",
+   "ts": "2026-10-29T16:50:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00341",
+   "from": "@vivek",
+   "text": "saw the new notifications centre mocks, they look 🔥",
+   "ts": "2026-10-29T11:28:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00342",
+   "from": "@arjun",
+   "text": "ha thanks, still rough",
+   "ts": "2026-10-29T11:41:00+05:30",
+   "to": "@vivek"
+  },
+  {
+   "id": "m_ax00343",
+   "from": "@vivek",
+   "text": "saw the new first-run checklist mocks, they look 🔥",
+   "ts": "2026-10-29T16:36:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00344",
+   "from": "@arjun",
+   "text": "ha thanks, still rough",
+   "ts": "2026-10-29T16:39:00+05:30",
+   "to": "@vivek"
+  },
+  {
+   "id": "m_ax00345",
+   "from": "@vivek",
+   "text": "lunch at Biryani Junction today? few of us going at 1:15",
+   "ts": "2026-10-29T16:31:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00346",
+   "from": "@arjun",
+   "text": "can't today, back to back - next time!",
+   "ts": "2026-10-29T16:42:00+05:30",
+   "to": "@vivek"
+  },
+  {
+   "id": "m_ax00347",
+   "from": "@naveen",
+   "text": "lunch at Koramangala Social Kitchen today? few of us going at 1:15",
+   "ts": "2026-10-29T12:54:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00348",
+   "from": "@arjun",
+   "text": "can't today, back to back - next time!",
+   "ts": "2026-10-29T13:02:00+05:30",
+   "to": "@naveen"
+  },
+  {
+   "id": "m_ax00368",
+   "from": "@vivek",
+   "text": "Chargeback rate this month is 9% lower than last, the new descriptor copy helped",
+   "ts": "2026-10-30T10:52:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00369",
+   "from": "@deepa",
+   "text": "nice! sharing with support",
+   "ts": "2026-10-30T11:03:00+05:30",
+   "channel": "#payments-team",
+   "thread_id": "m_ax00368"
+  },
+  {
+   "id": "m_ax00370",
+   "from": "@sneha",
+   "text": "Partner bank is doing maintenance Thursday 1-3 am, payouts will queue",
+   "ts": "2026-10-30T09:24:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00371",
+   "from": "@vivek",
+   "text": "added to the status page",
+   "ts": "2026-10-30T09:31:00+05:30",
+   "channel": "#payments-team",
+   "thread_id": "m_ax00370"
+  },
+  {
+   "id": "m_ax00372",
+   "from": "@aman",
+   "text": "Can someone review the UPI mandate copy? needs to go to compliance by Wednesday",
+   "ts": "2026-10-30T14:21:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00373",
+   "from": "@deepa",
+   "text": "on it",
+   "ts": "2026-10-30T14:25:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00374",
+   "from": "@deepa",
+   "text": "Can someone review the UPI mandate copy? needs to go to compliance by Friday",
+   "ts": "2026-10-30T13:32:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00375",
+   "from": "@sneha",
+   "text": "on it",
+   "ts": "2026-10-30T13:41:00+05:30",
+   "channel": "#payments-team",
+   "thread_id": "m_ax00374"
+  },
+  {
+   "id": "m_ax00376",
+   "from": "@tara",
+   "text": "Welcome to our new joiners this week! Say hi 👋",
+   "ts": "2026-10-30T11:57:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00377",
+   "from": "@deepa",
+   "text": "welcome!",
+   "ts": "2026-10-30T12:04:00+05:30",
+   "channel": "#general",
+   "thread_id": "m_ax00376"
+  },
+  {
+   "id": "m_ax00378",
+   "from": "@vivek",
+   "text": "👋👋",
+   "ts": "2026-10-30T12:13:00+05:30",
+   "channel": "#general",
+   "thread_id": "m_ax00376"
+  },
+  {
+   "id": "m_ax00379",
+   "from": "@mohit",
+   "text": "Monthly metrics are in the deck: trial-to-paid up 15%, trial-to-paid flat",
+   "ts": "2026-10-30T13:00:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00380",
+   "from": "@aman",
+   "text": "great work everyone",
+   "ts": "2026-10-30T13:03:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00381",
+   "from": "@tara",
+   "text": "Congrats to @deepa on 7 years at Ledgerly! 🎉",
+   "ts": "2026-10-30T16:35:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00382",
+   "from": "@mohit",
+   "text": "🎉🎉",
+   "ts": "2026-10-30T16:43:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00383",
+   "from": "@deepa",
+   "text": "thank you all!",
+   "ts": "2026-10-30T16:45:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00384",
+   "from": "@aman",
+   "text": "Lost and found: a grey hoodie and a very nice water bottle near the 4F lifts",
+   "ts": "2026-10-30T13:46:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00385",
+   "from": "@sneha",
+   "text": "bottle is mine!",
+   "ts": "2026-10-30T13:52:00+05:30",
+   "channel": "#general"
+  },
+  {
+   "id": "m_ax00386",
+   "from": "@vivek",
+   "text": "Dependabot opened 14 PRs overnight, I'm batching them into one",
+   "ts": "2026-10-30T15:20:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00387",
+   "from": "@ishita",
+   "text": "bless you",
+   "ts": "2026-10-30T15:23:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00386"
+  },
+  {
+   "id": "m_ax00388",
+   "from": "@prakash",
+   "text": "Heads up, I'm rotating the staging DB credentials at 3:30. Expect 2 min of errors.",
+   "ts": "2026-10-30T15:21:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00389",
+   "from": "@aman",
+   "text": "ty",
+   "ts": "2026-10-30T15:35:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00390",
+   "from": "@aman",
+   "text": "TIL our CSV export times out above 40k rows. Ticket PLAT-219 filed",
+   "ts": "2026-10-30T17:58:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00391",
+   "from": "@ishita",
+   "text": "oof, good catch",
+   "ts": "2026-10-30T18:09:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00392",
+   "from": "@prakash",
+   "text": "Anyone else seeing the e2e suite flake on the help centre spec? Third red run today",
+   "ts": "2026-10-30T12:44:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00393",
+   "from": "@sneha",
+   "text": "yeah it's the timezone fixture again, I'll pin it",
+   "ts": "2026-10-30T12:45:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00392"
+  },
+  {
+   "id": "m_ax00394",
+   "from": "@prakash",
+   "text": "legend",
+   "ts": "2026-10-30T12:52:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00392"
+  },
+  {
+   "id": "m_ax00395",
+   "from": "@ishita",
+   "text": "Heads up, I'm rotating the staging DB credentials at 2:30. Expect 2 min of errors.",
+   "ts": "2026-10-30T14:40:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00396",
+   "from": "@aman",
+   "text": "perfect",
+   "ts": "2026-10-30T14:46:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00395"
+  },
+  {
+   "id": "m_ax00397",
+   "from": "@vivek",
+   "text": "Heads up, I'm rotating the staging DB credentials at first thing tomorrow. Expect 2 min of errors.",
+   "ts": "2026-10-30T14:35:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00398",
+   "from": "@aman",
+   "text": "perfect",
+   "ts": "2026-10-30T14:41:00+05:30",
+   "channel": "#eng",
+   "thread_id": "m_ax00397"
+  },
+  {
+   "id": "m_ax00399",
+   "from": "@naveen",
+   "text": "Anyone else seeing the e2e suite flake on the error banners spec? Third red run today",
+   "ts": "2026-10-30T14:36:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00400",
+   "from": "@sneha",
+   "text": "yeah it's the timezone fixture again, I'll pin it",
+   "ts": "2026-10-30T14:49:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00401",
+   "from": "@naveen",
+   "text": "legend",
+   "ts": "2026-10-30T15:00:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00402",
+   "from": "@aman",
+   "text": "who owns the plan upgrade modal feature flag? it's been at 50% for three weeks",
+   "ts": "2026-10-30T13:37:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00403",
+   "from": "@joseph",
+   "text": "@prakash I think",
+   "ts": "2026-10-30T13:47:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00404",
+   "from": "@prakash",
+   "text": "mine, rolling to 100 tomorrow if metrics hold",
+   "ts": "2026-10-30T13:48:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00405",
+   "from": "@aman",
+   "text": "TIL our CSV export times out above 40k rows. Ticket PLAT-228 filed",
+   "ts": "2026-10-30T11:40:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00406",
+   "from": "@vivek",
+   "text": "oof, good catch",
+   "ts": "2026-10-30T11:51:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00407",
+   "from": "@naveen",
+   "text": "p95 on /v1/invoices went from 1181ms to 1181ms after yesterday's deploy, digging",
+   "ts": "2026-10-30T09:23:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00408",
+   "from": "@vivek",
+   "text": "probably the new join, check the query plan",
+   "ts": "2026-10-30T09:30:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00409",
+   "from": "@naveen",
+   "text": "yep, missing index. Fix in #2066",
+   "ts": "2026-10-30T09:41:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00410",
+   "from": "@aman",
+   "text": "Anyone else seeing the e2e suite flake on the global search spec? Third red run today",
+   "ts": "2026-10-30T18:54:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00411",
+   "from": "@ishita",
+   "text": "yeah it's the timezone fixture again, I'll pin it",
+   "ts": "2026-10-30T18:59:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00412",
+   "from": "@aman",
+   "text": "legend",
+   "ts": "2026-10-30T19:11:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00413",
+   "from": "@deepa",
+   "text": "Today's office playlist is entirely 90s Bollywood and I'm not complaining",
+   "ts": "2026-10-30T14:22:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00414",
+   "from": "@ishita",
+   "text": "who's DJing",
+   "ts": "2026-10-30T14:27:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00413"
+  },
+  {
+   "id": "m_ax00415",
+   "from": "@deepa",
+   "text": "@naveen obviously",
+   "ts": "2026-10-30T14:38:00+05:30",
+   "channel": "#random",
+   "thread_id": "m_ax00413"
+  },
+  {
+   "id": "m_ax00416",
+   "from": "@joseph",
+   "text": "Today's office playlist is entirely 90s Bollywood and I'm not complaining",
+   "ts": "2026-10-30T13:28:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00417",
+   "from": "@ritika",
+   "text": "who's DJing",
+   "ts": "2026-10-30T13:41:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00418",
+   "from": "@joseph",
+   "text": "@aman obviously",
+   "ts": "2026-10-30T13:43:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00419",
+   "from": "@sneha",
+   "text": "PSA: the Koramangala flyover is closed tonight, take the service road",
+   "ts": "2026-10-30T10:49:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00420",
+   "from": "@joseph",
+   "text": "thanks for the heads up",
+   "ts": "2026-10-30T10:52:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00421",
+   "from": "@vivek",
+   "text": "Today's office playlist is entirely 90s Bollywood and I'm not complaining",
+   "ts": "2026-10-30T14:29:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00422",
+   "from": "@deepa",
+   "text": "who's DJing",
+   "ts": "2026-10-30T14:39:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00423",
+   "from": "@vivek",
+   "text": "@ishita obviously",
+   "ts": "2026-10-30T14:44:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00424",
+   "from": "@tara",
+   "text": "PSA: the Koramangala flyover is closed tonight, take the service road",
+   "ts": "2026-10-30T18:49:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00425",
+   "from": "@ritika",
+   "text": "thanks for the heads up",
+   "ts": "2026-10-30T18:57:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00426",
+   "from": "@sneha",
+   "text": "Board game night Friday? I'll bring Codenames",
+   "ts": "2026-10-30T11:11:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00427",
+   "from": "@ishita",
+   "text": "in",
+   "ts": "2026-10-30T11:23:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00428",
+   "from": "@naveen",
+   "text": "in, I'll bring snacks",
+   "ts": "2026-10-30T11:27:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00429",
+   "from": "@prakash",
+   "text": "Saw this and thought of the team: 'The case against infinite scroll in admin tools'",
+   "ts": "2026-10-30T16:38:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00430",
+   "from": "@sneha",
+   "text": "the bit about defaults is so true",
+   "ts": "2026-10-30T16:49:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00431",
+   "from": "@sneha",
+   "text": "Lunch at The Bowl Co.? leaving at 1:15",
+   "ts": "2026-10-30T12:34:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00432",
+   "from": "@joseph",
+   "text": "in",
+   "ts": "2026-10-30T12:38:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00433",
+   "from": "@ritika",
+   "text": "in, save me a seat",
+   "ts": "2026-10-30T12:48:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00434",
+   "from": "@ritika",
+   "text": "Ordering from Koramangala Social Kitchen, anyone want to add? closing in 10",
+   "ts": "2026-10-30T14:09:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00435",
+   "from": "@joseph",
+   "text": "one veg thali please",
+   "ts": "2026-10-30T14:18:00+05:30",
+   "channel": "#koramangala-office",
+   "thread_id": "m_ax00434"
+  },
+  {
+   "id": "m_ax00436",
+   "from": "@ishita",
+   "text": "Chai run at 4, anyone?",
+   "ts": "2026-10-30T09:18:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00437",
+   "from": "@joseph",
+   "text": "yes",
+   "ts": "2026-10-30T09:29:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00438",
+   "from": "@deepa",
+   "text": "2 please",
+   "ts": "2026-10-30T09:43:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00439",
+   "from": "@mohit",
+   "text": "Who left the paneer in the fridge since Monday",
+   "ts": "2026-10-30T09:38:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00440",
+   "from": "@vivek",
+   "text": "not me",
+   "ts": "2026-10-30T09:44:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00441",
+   "from": "@prakash",
+   "text": "...possibly me",
+   "ts": "2026-10-30T09:54:00+05:30",
+   "channel": "#koramangala-office"
+  },
+  {
+   "id": "m_ax00442",
+   "from": "@deepa",
+   "text": "Printer on 4F is jammed again",
+   "ts": "2026-10-30T14:34:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00443",
+   "from": "@prakash",
+   "text": "it's always jammed",
+   "ts": "2026-10-30T14:42:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00444",
+   "from": "@aman",
+   "text": "facilities is on it",
+   "ts": "2026-10-30T14:55:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00445",
+   "from": "@sneha",
+   "text": "Printer on 4F is jammed again",
+   "ts": "2026-10-30T09:22:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00446",
+   "from": "@vivek",
+   "text": "it's always jammed",
+   "ts": "2026-10-30T09:35:00+05:30",
+   "channel": "#help-it",
+   "thread_id": "m_ax00445"
+  },
+  {
+   "id": "m_ax00447",
+   "from": "@ritika",
+   "text": "facilities is on it",
+   "ts": "2026-10-30T09:47:00+05:30",
+   "channel": "#help-it",
+   "thread_id": "m_ax00445"
+  },
+  {
+   "id": "m_ax00448",
+   "from": "@mohit",
+   "text": "Printer on 4F is jammed again",
+   "ts": "2026-10-30T16:01:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00449",
+   "from": "@ishita",
+   "text": "it's always jammed",
+   "ts": "2026-10-30T16:07:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00450",
+   "from": "@joseph",
+   "text": "facilities is on it",
+   "ts": "2026-10-30T16:12:00+05:30",
+   "channel": "#help-it"
+  },
+  {
+   "id": "m_ax00451",
+   "from": "@sneha",
+   "text": "Upgrading the component library to the new major, expect a big PR #1895",
+   "ts": "2026-10-30T17:47:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00452",
+   "from": "@ritika",
+   "text": "brave",
+   "ts": "2026-10-30T17:55:00+05:30",
+   "channel": "#fe-guild",
+   "thread_id": "m_ax00451"
+  },
+  {
+   "id": "m_ax00453",
+   "from": "@sneha",
+   "text": "🫡",
+   "ts": "2026-10-30T18:02:00+05:30",
+   "channel": "#fe-guild",
+   "thread_id": "m_ax00451"
+  },
+  {
+   "id": "m_ax00454",
+   "from": "@ishita",
+   "text": "Storybook is deployed for the payouts screen, link in the PR",
+   "ts": "2026-10-30T12:15:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00455",
+   "from": "@ritika",
+   "text": "this is so helpful",
+   "ts": "2026-10-30T12:17:00+05:30",
+   "channel": "#fe-guild"
+  },
+  {
+   "id": "m_ax00456",
+   "from": "@mohit",
+   "text": "fyi the reports filters build is on staging if you want to poke at it",
+   "ts": "2026-10-30T16:08:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00457",
+   "from": "@arjun",
+   "text": "nice, will try it after lunch",
+   "ts": "2026-10-30T16:21:00+05:30",
+   "to": "@mohit"
+  },
+  {
+   "id": "m_ax00458",
+   "from": "@mohit",
+   "text": "loved your comment in crit today, really reframed it",
+   "ts": "2026-10-30T14:33:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00459",
+   "from": "@arjun",
+   "text": "thank you, that's kind",
+   "ts": "2026-10-30T14:36:00+05:30",
+   "to": "@mohit"
+  },
+  {
+   "id": "m_ax00460",
+   "from": "@naveen",
+   "text": "loved your comment in crit today, really reframed it",
+   "ts": "2026-10-30T09:17:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00461",
+   "from": "@arjun",
+   "text": "thank you, that's kind",
+   "ts": "2026-10-30T09:21:00+05:30",
+   "to": "@naveen"
+  },
+  {
+   "id": "m_ax00462",
+   "from": "@naveen",
+   "text": "loved your comment in crit today, really reframed it",
+   "ts": "2026-10-30T09:54:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00463",
+   "from": "@arjun",
+   "text": "thank you, that's kind",
+   "ts": "2026-10-30T10:08:00+05:30",
+   "to": "@naveen"
+  },
+  {
+   "id": "m_ax00464",
+   "from": "@naveen",
+   "text": "lunch at Udupi Express today? few of us going at 1:15",
+   "ts": "2026-10-30T13:28:00+05:30",
+   "to": "@arjun"
+  },
+  {
+   "id": "m_ax00465",
+   "from": "@arjun",
+   "text": "can't today, back to back - next time!",
+   "ts": "2026-10-30T13:36:00+05:30",
+   "to": "@naveen"
+  },
+  {
+   "id": "m_ax00485",
+   "from": "@vivek",
+   "text": "Chargeback rate this month is 9% lower than last, the new descriptor copy helped",
+   "ts": "2026-10-31T18:03:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00486",
+   "from": "@sneha",
+   "text": "nice! sharing with support",
+   "ts": "2026-10-31T18:11:00+05:30",
+   "channel": "#payments-team"
+  },
+  {
+   "id": "m_ax00487",
+   "from": "@ishita",
+   "text": "TIL our CSV export times out above 40k rows. Ticket PAY-702 filed",
+   "ts": "2026-10-31T17:19:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00488",
+   "from": "@joseph",
+   "text": "oof, good catch",
+   "ts": "2026-10-31T17:24:00+05:30",
+   "channel": "#eng"
+  },
+  {
+   "id": "m_ax00489",
+   "from": "@ishita",
+   "text": "Anyone watching the courtroom drama everyone's on about? need someone to talk to about episode 3",
+   "ts": "2026-10-31T17:58:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00490",
+   "from": "@sneha",
+   "text": "no spoilers I'm one behind",
+   "ts": "2026-10-31T18:04:00+05:30",
+   "channel": "#random"
+  },
+  {
+   "id": "m_ax00491",
+   "from": "@aman",
+   "text": "[SEV3] INC-488 login latency spike in ap-south, p95 1370ms",
+   "ts": "2026-10-31T11:21:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00492",
+   "from": "@prakash",
+   "text": "cache node restarted, back to normal",
+   "ts": "2026-10-31T11:31:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00497",
+   "from": "@vivek",
+   "text": "[SEV3] INC-558 login latency spike in ap-south, p95 656ms",
+   "ts": "2026-11-01T20:19:00+05:30",
+   "channel": "#incidents"
+  },
+  {
+   "id": "m_ax00498",
+   "from": "@sneha",
+   "text": "cache node restarted, back to normal",
+   "ts": "2026-11-01T20:30:00+05:30",
+   "channel": "#incidents"
+  }
+ ],
+ "events": [
+  {
+   "id": "evt_standup_0",
+   "title": "Payments standup",
+   "start": "2026-11-02T10:00:00+05:30",
+   "end": "2026-11-02T10:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_kavya_menon",
+    "p_nikhil"
+   ],
+   "location": "Zoom",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_standup_1",
+   "title": "Payments standup",
+   "start": "2026-11-03T10:00:00+05:30",
+   "end": "2026-11-03T10:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_kavya_menon",
+    "p_nikhil"
+   ],
+   "location": "Zoom",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_standup_2",
+   "title": "Payments standup",
+   "start": "2026-11-04T10:00:00+05:30",
+   "end": "2026-11-04T10:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_kavya_menon",
+    "p_nikhil"
+   ],
+   "location": "Zoom",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_standup_3",
+   "title": "Payments standup",
+   "start": "2026-11-05T10:00:00+05:30",
+   "end": "2026-11-05T10:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_kavya_menon",
+    "p_nikhil"
+   ],
+   "location": "Zoom",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_standup_4",
+   "title": "Payments standup",
+   "start": "2026-11-06T10:00:00+05:30",
+   "end": "2026-11-06T10:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_kavya_menon",
+    "p_nikhil"
+   ],
+   "location": "Zoom",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_standup_5",
+   "title": "Payments standup",
+   "start": "2026-11-09T10:00:00+05:30",
+   "end": "2026-11-09T10:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_kavya_menon",
+    "p_nikhil"
+   ],
+   "location": "Zoom",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_standup_6",
+   "title": "Payments standup",
+   "start": "2026-11-10T10:00:00+05:30",
+   "end": "2026-11-10T10:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_kavya_menon",
+    "p_nikhil"
+   ],
+   "location": "Zoom",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_standup_7",
+   "title": "Payments standup",
+   "start": "2026-11-11T10:00:00+05:30",
+   "end": "2026-11-11T10:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_kavya_menon",
+    "p_nikhil"
+   ],
+   "location": "Zoom",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_standup_8",
+   "title": "Payments standup",
+   "start": "2026-11-12T10:00:00+05:30",
+   "end": "2026-11-12T10:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_kavya_menon",
+    "p_nikhil"
+   ],
+   "location": "Zoom",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_standup_9",
+   "title": "Payments standup",
+   "start": "2026-11-13T10:00:00+05:30",
+   "end": "2026-11-13T10:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_kavya_menon",
+    "p_nikhil"
+   ],
+   "location": "Zoom",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_sync_1",
+   "title": "Weekly sync with Nikhil",
+   "start": "2026-11-02T11:00:00+05:30",
+   "end": "2026-11-02T11:30:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_nikhil"
+   ],
+   "location": "Room Kaveri",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_sync_2",
+   "title": "Weekly sync with Nikhil",
+   "start": "2026-11-09T11:00:00+05:30",
+   "end": "2026-11-09T11:30:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_nikhil"
+   ],
+   "location": "Room Kaveri",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_planning",
+   "title": "Sprint planning",
+   "start": "2026-11-11T14:00:00+05:30",
+   "end": "2026-11-11T15:00:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_kavya_menon",
+    "p_nikhil"
+   ],
+   "location": "Room Kaveri",
+   "status": "confirmed"
+  },
+  {
+   "id": "evt_review_2026-10-28",
+   "title": "Payments design review",
+   "start": "2026-10-28T15:00:00+05:30",
+   "end": "2026-10-28T15:45:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_deepa",
+    "p_ritika",
+    "p_vivek"
+   ],
+   "organizer": "p_deepa",
+   "location": "Meet",
+   "description": "Review designs and API contracts for payments work in progress.",
+   "status": "confirmed",
+   "my_response": "accepted",
+   "series": "evt_review"
+  },
+  {
+   "id": "evt_review_2026-11-04",
+   "title": "Payments design review",
+   "start": "2026-11-04T15:00:00+05:30",
+   "end": "2026-11-04T15:45:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_deepa",
+    "p_ritika",
+    "p_vivek"
+   ],
+   "organizer": "p_deepa",
+   "location": "Meet",
+   "description": "Review designs and API contracts for payments work in progress.",
+   "status": "confirmed",
+   "my_response": "accepted",
+   "series": "evt_review"
+  },
+  {
+   "id": "evt_review_2026-11-11",
+   "title": "Payments design review",
+   "start": "2026-11-11T15:00:00+05:30",
+   "end": "2026-11-11T15:45:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_deepa",
+    "p_ritika",
+    "p_vivek"
+   ],
+   "organizer": "p_deepa",
+   "location": "Meet",
+   "description": "Review designs and API contracts for payments work in progress.",
+   "status": "confirmed",
+   "my_response": "accepted",
+   "series": "evt_review"
+  },
+  {
+   "id": "evt_review_2026-11-18",
+   "title": "Payments design review",
+   "start": "2026-11-18T15:00:00+05:30",
+   "end": "2026-11-18T15:45:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_deepa",
+    "p_ritika",
+    "p_vivek"
+   ],
+   "organizer": "p_deepa",
+   "location": "Meet",
+   "description": "Review designs and API contracts for payments work in progress.",
+   "status": "confirmed",
+   "my_response": "accepted",
+   "series": "evt_review"
+  },
+  {
+   "id": "evt_review_2026-11-25",
+   "title": "Payments design review",
+   "start": "2026-11-25T15:00:00+05:30",
+   "end": "2026-11-25T15:45:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_deepa",
+    "p_ritika",
+    "p_vivek"
+   ],
+   "organizer": "p_deepa",
+   "location": "Meet",
+   "description": "Review designs and API contracts for payments work in progress.",
+   "status": "confirmed",
+   "my_response": "accepted",
+   "series": "evt_review"
+  },
+  {
+   "id": "evt_oncall_2026-11-02",
+   "title": "On-call handover",
+   "start": "2026-11-02T12:00:00+05:30",
+   "end": "2026-11-02T12:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_mohit",
+    "p_vivek",
+    "p_naveen"
+   ],
+   "organizer": "p_mohit",
+   "location": "Meet",
+   "description": "Hand over the pager, review last week's alerts.",
+   "status": "confirmed",
+   "my_response": "accepted",
+   "series": "evt_oncall"
+  },
+  {
+   "id": "evt_oncall_2026-11-09",
+   "title": "On-call handover",
+   "start": "2026-11-09T12:00:00+05:30",
+   "end": "2026-11-09T12:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_mohit",
+    "p_vivek",
+    "p_naveen"
+   ],
+   "organizer": "p_mohit",
+   "location": "Meet",
+   "description": "Hand over the pager, review last week's alerts.",
+   "status": "confirmed",
+   "my_response": "accepted",
+   "series": "evt_oncall"
+  },
+  {
+   "id": "evt_oncall_2026-11-16",
+   "title": "On-call handover",
+   "start": "2026-11-16T12:00:00+05:30",
+   "end": "2026-11-16T12:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_mohit",
+    "p_vivek",
+    "p_naveen"
+   ],
+   "organizer": "p_mohit",
+   "location": "Meet",
+   "description": "Hand over the pager, review last week's alerts.",
+   "status": "confirmed",
+   "my_response": "accepted",
+   "series": "evt_oncall"
+  },
+  {
+   "id": "evt_oncall_2026-11-23",
+   "title": "On-call handover",
+   "start": "2026-11-23T12:00:00+05:30",
+   "end": "2026-11-23T12:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_mohit",
+    "p_vivek",
+    "p_naveen"
+   ],
+   "organizer": "p_mohit",
+   "location": "Meet",
+   "description": "Hand over the pager, review last week's alerts.",
+   "status": "confirmed",
+   "my_response": "accepted",
+   "series": "evt_oncall"
+  },
+  {
+   "id": "evt_oncall_2026-11-30",
+   "title": "On-call handover",
+   "start": "2026-11-30T12:00:00+05:30",
+   "end": "2026-11-30T12:15:00+05:30",
+   "attendees": [
+    "p_arjun",
+    "p_mohit",
+    "p_vivek",
+    "p_naveen"
+   ],
+   "organizer": "p_mohit",
+   "location": "Meet",
+   "description": "Hand over the pager, review last week's alerts.",
+   "status": "confirmed",
+   "my_response": "accepted",
+   "series": "evt_oncall"
+  }
+ ],
+ "reminders": [],
+ "scheduled": [],
+ "emails": [
+  {
+   "id": "e_ax00097",
+   "thread_id": "e_ax00097",
+   "folder": "inbox",
+   "from": "letters@theinterface.io",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "The Interface: The case for boring dashboards",
+   "body": "The Interface - Tuesday 27 October\n\n1. The case for boring dashboards\nFewer charts, more sentences. Why executive dashboards that read like a paragraph outperform the ones that look like a cockpit.\n\n2. Prototyping with real data\nTeams that wire prototypes to production-shaped data find layout bugs weeks earlier. A walkthrough using anonymised fixtures.\n\n3. Inside a design crit that actually works\nA rotating facilitator, a strict 'questions before opinions' rule and a written summary within the hour. Simple, and rarer than it should be.\n\n4. Hiring designers in 2027\nPortfolio reviews are getting shorter and take-home tasks are on the way out. What hiring managers say they actually look for now.\n\n5. Onboarding is a conversation, not a form\nProgressive profiling, deferred questions and the one screen you should never skip. With before-and-after completion numbers.\n\n6. When to kill a feature\nUsage below two percent is not enough on its own. A framework that weighs support cost, code ownership and the loudest five customers.\n\nYou are receiving this because you subscribed with arjun@ledgerly.in. Unsubscribe or manage preferences at the link below.",
+   "ts": "2026-10-27T07:43:00+05:30",
+   "labels": [
+    "newsletter"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00098",
+   "thread_id": "e_ax00098",
+   "folder": "inbox",
+   "from": "news@backendweekly.dev",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Backend Weekly: Settings pages are where products go to die",
+   "body": "Backend Weekly - Tuesday 27 October\n\n1. Settings pages are where products go to die\nA long look at how preference screens accrete, and three teams that pruned theirs by half without losing a single power user.\n\n2. Running in the cold season\nLayering, hydration and why your easy pace should get easier when the mornings drop below fifteen degrees.\n\n3. When to kill a feature\nUsage below two percent is not enough on its own. A framework that weighs support cost, code ownership and the loudest five customers.\n\n4. Onboarding is a conversation, not a form\nProgressive profiling, deferred questions and the one screen you should never skip. With before-and-after completion numbers.\n\nYou are receiving this because you subscribed with arjun@ledgerly.in. Unsubscribe or manage preferences at the link below.",
+   "ts": "2026-10-27T07:43:00+05:30",
+   "labels": [
+    "newsletter"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00099",
+   "thread_id": "e_ax00099",
+   "folder": "inbox",
+   "from": "brief@productbrief.co",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Product Brief Daily: Settings pages are where products go to die",
+   "body": "Product Brief Daily - Tuesday 27 October\n\n1. Settings pages are where products go to die\nA long look at how preference screens accrete, and three teams that pruned theirs by half without losing a single power user.\n\n2. Design tokens at 300 components\nWhat breaks when a token system grows past its first year, and the naming scheme one team migrated to over a long weekend.\n\n3. Charts that lie by accident\nTruncated axes, dual scales and the area-chart trap, with corrected versions you can steal.\n\n4. Hiring designers in 2027\nPortfolio reviews are getting shorter and take-home tasks are on the way out. What hiring managers say they actually look for now.\n\nYou are receiving this because you subscribed with arjun@ledgerly.in. Unsubscribe or manage preferences at the link below.",
+   "ts": "2026-10-27T06:49:00+05:30",
+   "labels": [
+    "newsletter"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00100",
+   "thread_id": "e_ax00100",
+   "folder": "inbox",
+   "from": "receipts@ridenow.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your ride receipt",
+   "body": "Thanks for riding with RideNow.\n\nRide: HSR Layout to Koramangala\nFare: Rs 720\nPaid with card ending 7730.\n\nRate your driver in the app.",
+   "ts": "2026-10-27T07:54:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00101",
+   "thread_id": "e_ax00101",
+   "folder": "inbox",
+   "from": "committee@hsrgreens.org",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "HSR Greens Residents: notice",
+   "body": "Dear residents, water supply will be interrupted on Thursday between 10 am and 2 pm for tank cleaning. Please store water accordingly.\n\n- Managing Committee",
+   "ts": "2026-10-27T07:12:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00102",
+   "thread_id": "e_ax00102",
+   "folder": "inbox",
+   "from": "committee@hsrgreens.org",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "HSR Greens Residents: maintenance reminder",
+   "body": "This is a gentle reminder that maintenance for the quarter is due by the 10th. Late fee applies after that. Ignore if paid.",
+   "ts": "2026-10-27T08:27:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00103",
+   "thread_id": "e_ax00103",
+   "folder": "inbox",
+   "from": "alerts@ledgerlinebank.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your OTP for login",
+   "body": "Your one-time password is 979942. It is valid for 10 minutes. Never share your OTP with anyone, including bank staff.",
+   "ts": "2026-10-27T17:12:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00104",
+   "thread_id": "e_ax00104",
+   "folder": "inbox",
+   "from": "no-reply@mahapower.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Electricity bill generated",
+   "body": "Your electricity bill is Rs 1,650, due in 14 days. Units consumed: 143.",
+   "ts": "2026-10-27T15:01:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00105",
+   "thread_id": "e_ax00105",
+   "folder": "inbox",
+   "from": "no-reply@kiranaexpress.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Delivered: your Kirana Express order",
+   "body": "Your groceries were delivered.\n\nOrder total: Rs 1,749. Substitutions: none.\n\nRate this delivery.",
+   "ts": "2026-10-27T13:42:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00106",
+   "thread_id": "e_ax00106",
+   "folder": "inbox",
+   "from": "orders@tiffinly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your Tiffinly order is on its way",
+   "body": "Your order from The Bowl Co. is out for delivery.\n\nItems: 1 x veg thali, 1 x buttermilk\nTotal: Rs 1,449\n\nTrack your order in the app.",
+   "ts": "2026-10-27T14:11:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00107",
+   "thread_id": "e_ax00107",
+   "folder": "inbox",
+   "from": "peopleops@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Reminder: insurance top-up enrolment",
+   "body": "Hi all,\n\nA reminder that the window to add parents or top up your health cover closes at the end of the month. Details and the form are on the intranet. Reach out with questions.\n\nPeople Ops",
+   "ts": "2026-10-27T11:50:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00108",
+   "thread_id": "e_ax00108",
+   "folder": "inbox",
+   "from": "learning@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "New on the learning portal",
+   "body": "This month: a short course on writing for interfaces, a workshop on giving feedback, and recordings from the last tech talk on activity log.",
+   "ts": "2026-10-27T11:31:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00109",
+   "thread_id": "e_ax00109",
+   "folder": "inbox",
+   "from": "finance@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Reimbursement processed",
+   "body": "Your reimbursement claim for Rs 299 has been approved and will be paid with the next payroll.",
+   "ts": "2026-10-27T16:12:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00110",
+   "thread_id": "e_ax00110",
+   "folder": "inbox",
+   "from": "finance@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Reimbursement processed",
+   "body": "Your reimbursement claim for Rs 1,370 has been approved and will be paid with the next payroll.",
+   "ts": "2026-10-27T15:43:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00111",
+   "thread_id": "e_ax00111",
+   "folder": "inbox",
+   "from": "facilities@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Office: parking level B2 closed Thursday",
+   "body": "B2 will be closed on Thursday for painting. Please use B1 or the visitor lot. Thank you for your patience.",
+   "ts": "2026-10-27T11:22:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00112",
+   "thread_id": "e_ax00112",
+   "folder": "inbox",
+   "from": "learning@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "New on the learning portal",
+   "body": "This month: a short course on writing for interfaces, a workshop on giving feedback, and recordings from the last tech talk on KYC step.",
+   "ts": "2026-10-27T13:53:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00113",
+   "thread_id": "e_ax00113",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build passed on main (4.24.1)",
+   "body": "All 15 checks passed. Deployed to staging automatically.",
+   "ts": "2026-10-27T11:53:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00114",
+   "thread_id": "e_ax00114",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Weekly dependency report",
+   "body": "37 packages have updates available, 4 of them security fixes.",
+   "ts": "2026-10-27T09:36:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00115",
+   "thread_id": "e_ax00115",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build passed on main (4.22.9)",
+   "body": "All 40 checks passed. Deployed to staging automatically.",
+   "ts": "2026-10-27T17:25:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00116",
+   "thread_id": "e_ax00116",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Weekly dependency report",
+   "body": "15 packages have updates available, 7 of them security fixes.",
+   "ts": "2026-10-27T13:02:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00117",
+   "thread_id": "e_ax00117",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build passed on main (4.19.6)",
+   "body": "All 16 checks passed. Deployed to staging automatically.",
+   "ts": "2026-10-27T09:14:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00118",
+   "thread_id": "e_ax00118",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build failed on main",
+   "body": "The integration suite failed on the global search job after Mohit's merge. A re-run is queued.",
+   "ts": "2026-10-27T15:21:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00119",
+   "thread_id": "e_ax00119",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build failed on main",
+   "body": "The integration suite failed on the password reset job after Sneha's merge. A re-run is queued.",
+   "ts": "2026-10-27T14:00:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00120",
+   "thread_id": "e_ax00120",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build passed on main (4.18.1)",
+   "body": "All 36 checks passed. Deployed to staging automatically.",
+   "ts": "2026-10-27T13:50:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00121",
+   "thread_id": "e_ax00121",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Deploy 4.24.8 to production succeeded",
+   "body": "Release 4.24.8 is live. Changelog attached.",
+   "ts": "2026-10-27T15:17:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00122",
+   "thread_id": "e_ax00122",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Weekly dependency report",
+   "body": "47 packages have updates available, 4 of them security fixes.",
+   "ts": "2026-10-27T13:06:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00221",
+   "thread_id": "e_ax00221",
+   "folder": "inbox",
+   "from": "brief@productbrief.co",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Product Brief Daily: The return of the command palette",
+   "body": "Product Brief Daily - Wednesday 28 October\n\n1. The return of the command palette\nFrom IDEs to accounting tools, keyboard-first navigation is back. We collected twelve implementations and what each gets right about discoverability.\n\n2. Hiring designers in 2027\nPortfolio reviews are getting shorter and take-home tasks are on the way out. What hiring managers say they actually look for now.\n\n3. Settings pages are where products go to die\nA long look at how preference screens accrete, and three teams that pruned theirs by half without losing a single power user.\n\n4. The empty inbox fallacy\nNotification centres that try to be inboxes end up as neither. A taxonomy of alerts, digests and tasks, and which belongs where.\n\n5. Running in the cold season\nLayering, hydration and why your easy pace should get easier when the mornings drop below fifteen degrees.\n\nYou are receiving this because you subscribed with arjun@ledgerly.in. Unsubscribe or manage preferences at the link below.",
+   "ts": "2026-10-28T06:24:00+05:30",
+   "labels": [
+    "newsletter"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00222",
+   "thread_id": "e_ax00222",
+   "folder": "inbox",
+   "from": "no-reply@kiranaexpress.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Delivered: your Kirana Express order",
+   "body": "Your groceries were delivered.\n\nOrder total: Rs 1,549. Substitutions: none.\n\nRate this delivery.",
+   "ts": "2026-10-28T14:49:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00223",
+   "thread_id": "e_ax00223",
+   "folder": "inbox",
+   "from": "committee@hsrgreens.org",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "HSR Greens Residents: notice",
+   "body": "Dear residents, water supply will be interrupted on Friday between 10 am and 2 pm for tank cleaning. Please store water accordingly.\n\n- Managing Committee",
+   "ts": "2026-10-28T11:56:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00224",
+   "thread_id": "e_ax00224",
+   "folder": "inbox",
+   "from": "receipts@ridenow.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your ride receipt",
+   "body": "Thanks for riding with RideNow.\n\nRide: HSR Layout to Koramangala\nFare: Rs 2,349\nPaid with card ending 7730.\n\nRate your driver in the app.",
+   "ts": "2026-10-28T07:25:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00225",
+   "thread_id": "e_ax00225",
+   "folder": "inbox",
+   "from": "hello@streamhouse.tv",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "New this week on StreamHouse",
+   "body": "Because you watched the new F1 documentary: three new titles we think you will like. Plus, the second season of Paper Harbour drops on Monday.",
+   "ts": "2026-10-28T17:28:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00226",
+   "thread_id": "e_ax00226",
+   "folder": "inbox",
+   "from": "finance@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Reimbursement processed",
+   "body": "Your reimbursement claim for Rs 2,299 has been approved and will be paid with the next payroll.",
+   "ts": "2026-10-28T10:07:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00227",
+   "thread_id": "e_ax00227",
+   "folder": "inbox",
+   "from": "finance@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Reimbursement processed",
+   "body": "Your reimbursement claim for Rs 1,799 has been approved and will be paid with the next payroll.",
+   "ts": "2026-10-28T10:42:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00228",
+   "thread_id": "e_ax00228",
+   "folder": "inbox",
+   "from": "it-help@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your password expires in 5 days",
+   "body": "Your Ledgerly SSO password expires in 5 days. Change it from the account portal to avoid being locked out. IT will never ask for your password.",
+   "ts": "2026-10-28T11:56:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00229",
+   "thread_id": "e_ax00229",
+   "folder": "inbox",
+   "from": "events@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Tech talk Monday: 'Why your on-call rotation burns people out'",
+   "body": "Join us on Monday at 4 pm in the 4F cafeteria (and on Meet). Snacks provided. Recording will be shared.",
+   "ts": "2026-10-28T09:03:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00230",
+   "thread_id": "e_ax00230",
+   "folder": "inbox",
+   "from": "peopleops@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Reminder: insurance top-up enrolment",
+   "body": "Hi all,\n\nA reminder that the window to add parents or top up your health cover closes at the end of the month. Details and the form are on the intranet. Reach out with questions.\n\nPeople Ops",
+   "ts": "2026-10-28T14:07:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00231",
+   "thread_id": "e_ax00231",
+   "folder": "inbox",
+   "from": "finance@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Reimbursement processed",
+   "body": "Your reimbursement claim for Rs 1,320 has been approved and will be paid with the next payroll.",
+   "ts": "2026-10-28T15:38:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00232",
+   "thread_id": "e_ax00232",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build failed on main",
+   "body": "The integration suite failed on the mobile nav job after Naveen's merge. A re-run is queued.",
+   "ts": "2026-10-28T12:42:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00233",
+   "thread_id": "e_ax00233",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Weekly dependency report",
+   "body": "37 packages have updates available, 2 of them security fixes.",
+   "ts": "2026-10-28T11:30:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00234",
+   "thread_id": "e_ax00234",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Weekly dependency report",
+   "body": "23 packages have updates available, 6 of them security fixes.",
+   "ts": "2026-10-28T17:57:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00235",
+   "thread_id": "e_ax00235",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build failed on main",
+   "body": "The integration suite failed on the approval rules job after Nikhil's merge. A re-run is queued.",
+   "ts": "2026-10-28T16:12:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00236",
+   "thread_id": "e_ax00236",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Weekly dependency report",
+   "body": "23 packages have updates available, 7 of them security fixes.",
+   "ts": "2026-10-28T12:15:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00349",
+   "thread_id": "e_ax00349",
+   "folder": "inbox",
+   "from": "news@backendweekly.dev",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Backend Weekly: Running in the cold season",
+   "body": "Backend Weekly - Thursday 29 October\n\n1. Running in the cold season\nLayering, hydration and why your easy pace should get easier when the mornings drop below fifteen degrees.\n\n2. The meeting-free afternoon experiment\nOne company blocked every afternoon for six weeks. Output went up, but so did the length of the remaining meetings.\n\n3. Monsoon-proofing your offline mode\nLessons from apps used in the field where connectivity drops for minutes at a time, and what 'optimistic UI' costs when sync fails.\n\n4. Settings pages are where products go to die\nA long look at how preference screens accrete, and three teams that pruned theirs by half without losing a single power user.\n\nYou are receiving this because you subscribed with arjun@ledgerly.in. Unsubscribe or manage preferences at the link below.",
+   "ts": "2026-10-29T07:03:00+05:30",
+   "labels": [
+    "newsletter"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00350",
+   "thread_id": "e_ax00350",
+   "folder": "inbox",
+   "from": "letters@theinterface.io",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "The Interface: The empty inbox fallacy",
+   "body": "The Interface - Thursday 29 October\n\n1. The empty inbox fallacy\nNotification centres that try to be inboxes end up as neither. A taxonomy of alerts, digests and tasks, and which belongs where.\n\n2. Charts that lie by accident\nTruncated axes, dual scales and the area-chart trap, with corrected versions you can steal.\n\n3. Design tokens at 300 components\nWhat breaks when a token system grows past its first year, and the naming scheme one team migrated to over a long weekend.\n\n4. Accessibility checks on a budget\nYou do not need a consultant to catch the top ten issues. A checklist, a screen reader and two hours a sprint get you most of the way.\n\nYou are receiving this because you subscribed with arjun@ledgerly.in. Unsubscribe or manage preferences at the link below.",
+   "ts": "2026-10-29T06:29:00+05:30",
+   "labels": [
+    "newsletter"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00351",
+   "thread_id": "e_ax00351",
+   "folder": "inbox",
+   "from": "committee@hsrgreens.org",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "HSR Greens Residents: notice",
+   "body": "Dear residents, water supply will be interrupted on Monday between 10 am and 2 pm for tank cleaning. Please store water accordingly.\n\n- Managing Committee",
+   "ts": "2026-10-29T18:23:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00352",
+   "thread_id": "e_ax00352",
+   "folder": "inbox",
+   "from": "hello@streamhouse.tv",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "New this week on StreamHouse",
+   "body": "Because you watched the Malayalam thriller: three new titles we think you will like. Plus, the second season of Paper Harbour drops on Tuesday.",
+   "ts": "2026-10-29T15:28:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00353",
+   "thread_id": "e_ax00353",
+   "folder": "inbox",
+   "from": "noreply@shelfwise.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your Shelfwise order has shipped",
+   "body": "Your order has shipped and will arrive in 2-3 days.\n\nOrder total: Rs 870.",
+   "ts": "2026-10-29T14:04:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00354",
+   "thread_id": "e_ax00354",
+   "folder": "inbox",
+   "from": "noreply@shelfwise.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your Shelfwise order has shipped",
+   "body": "Your order has shipped and will arrive in 2-3 days.\n\nOrder total: Rs 99.",
+   "ts": "2026-10-29T14:26:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00355",
+   "thread_id": "e_ax00355",
+   "folder": "inbox",
+   "from": "receipts@ridenow.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your ride receipt",
+   "body": "Thanks for riding with RideNow.\n\nRide: HSR Layout to Koramangala\nFare: Rs 520\nPaid with card ending 7730.\n\nRate your driver in the app.",
+   "ts": "2026-10-29T20:30:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00356",
+   "thread_id": "e_ax00356",
+   "folder": "inbox",
+   "from": "facilities@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Office: parking level B2 closed Wednesday",
+   "body": "B2 will be closed on Wednesday for painting. Please use B1 or the visitor lot. Thank you for your patience.",
+   "ts": "2026-10-29T13:00:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00357",
+   "thread_id": "e_ax00357",
+   "folder": "inbox",
+   "from": "finance@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Reimbursement processed",
+   "body": "Your reimbursement claim for Rs 449 has been approved and will be paid with the next payroll.",
+   "ts": "2026-10-29T14:00:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00358",
+   "thread_id": "e_ax00358",
+   "folder": "inbox",
+   "from": "facilities@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Office: parking level B2 closed Friday",
+   "body": "B2 will be closed on Friday for painting. Please use B1 or the visitor lot. Thank you for your patience.",
+   "ts": "2026-10-29T11:00:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00359",
+   "thread_id": "e_ax00359",
+   "folder": "inbox",
+   "from": "facilities@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Office: parking level B2 closed Tuesday",
+   "body": "B2 will be closed on Tuesday for painting. Please use B1 or the visitor lot. Thank you for your patience.",
+   "ts": "2026-10-29T09:44:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00360",
+   "thread_id": "e_ax00360",
+   "folder": "inbox",
+   "from": "it-help@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your password expires in 9 days",
+   "body": "Your Ledgerly SSO password expires in 9 days. Change it from the account portal to avoid being locked out. IT will never ask for your password.",
+   "ts": "2026-10-29T10:43:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00361",
+   "thread_id": "e_ax00361",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build failed on main",
+   "body": "The integration suite failed on the global search job after Vivek's merge. A re-run is queued.",
+   "ts": "2026-10-29T14:24:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00362",
+   "thread_id": "e_ax00362",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build passed on main (4.23.6)",
+   "body": "All 11 checks passed. Deployed to staging automatically.",
+   "ts": "2026-10-29T16:21:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00363",
+   "thread_id": "e_ax00363",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Deploy 4.23.1 to production succeeded",
+   "body": "Release 4.23.1 is live. Changelog attached.",
+   "ts": "2026-10-29T17:58:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00364",
+   "thread_id": "e_ax00364",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build passed on main (4.21.8)",
+   "body": "All 40 checks passed. Deployed to staging automatically.",
+   "ts": "2026-10-29T14:21:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00365",
+   "thread_id": "e_ax00365",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build failed on main",
+   "body": "The integration suite failed on the 2FA setup job after Vivek's merge. A re-run is queued.",
+   "ts": "2026-10-29T15:12:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00366",
+   "thread_id": "e_ax00366",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Deploy 4.23.6 to production succeeded",
+   "body": "Release 4.23.6 is live. Changelog attached.",
+   "ts": "2026-10-29T10:24:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00367",
+   "thread_id": "e_ax00367",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build passed on main (4.24.4)",
+   "body": "All 41 checks passed. Deployed to staging automatically.",
+   "ts": "2026-10-29T16:44:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00466",
+   "thread_id": "e_ax00466",
+   "folder": "inbox",
+   "from": "letters@theinterface.io",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "The Interface: Inside a design crit that actually works",
+   "body": "The Interface - Friday 30 October\n\n1. Inside a design crit that actually works\nA rotating facilitator, a strict 'questions before opinions' rule and a written summary within the hour. Simple, and rarer than it should be.\n\n2. Postmortems without blame\nTemplates are easy; culture is not. Three on-call leads describe how they keep reviews honest when the outage was expensive.\n\n3. Monsoon-proofing your offline mode\nLessons from apps used in the field where connectivity drops for minutes at a time, and what 'optimistic UI' costs when sync fails.\n\n4. Error messages, rewritten\nFifty real error strings from fintech apps, each rewritten to say what happened, why, and what to do next. Most get shorter.\n\n5. The meeting-free afternoon experiment\nOne company blocked every afternoon for six weeks. Output went up, but so did the length of the remaining meetings.\n\n6. Writing for scanners\nMost users read the first two words of a line. Front-load the verb, cut the preamble and test with a five-second test.\n\nYou are receiving this because you subscribed with arjun@ledgerly.in. Unsubscribe or manage preferences at the link below.",
+   "ts": "2026-10-30T06:05:00+05:30",
+   "labels": [
+    "newsletter"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00467",
+   "thread_id": "e_ax00467",
+   "folder": "inbox",
+   "from": "receipts@ridenow.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your ride receipt",
+   "body": "Thanks for riding with RideNow.\n\nRide: HSR Layout to Koramangala\nFare: Rs 149\nPaid with card ending 7730.\n\nRate your driver in the app.",
+   "ts": "2026-10-30T17:53:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00468",
+   "thread_id": "e_ax00468",
+   "folder": "inbox",
+   "from": "receipts@ridenow.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your ride receipt",
+   "body": "Thanks for riding with RideNow.\n\nRide: HSR Layout to Koramangala\nFare: Rs 499\nPaid with card ending 7730.\n\nRate your driver in the app.",
+   "ts": "2026-10-30T21:03:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00469",
+   "thread_id": "e_ax00469",
+   "folder": "inbox",
+   "from": "orders@tiffinly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your Tiffinly order is on its way",
+   "body": "Your order from Koramangala Social Kitchen is out for delivery.\n\nItems: 1 x veg thali, 1 x buttermilk\nTotal: Rs 2,049\n\nTrack your order in the app.",
+   "ts": "2026-10-30T16:10:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00470",
+   "thread_id": "e_ax00470",
+   "folder": "inbox",
+   "from": "orders@tiffinly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your Tiffinly order is on its way",
+   "body": "Your order from Koramangala Social Kitchen is out for delivery.\n\nItems: 1 x veg thali, 1 x buttermilk\nTotal: Rs 1,299\n\nTrack your order in the app.",
+   "ts": "2026-10-30T18:57:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00471",
+   "thread_id": "e_ax00471",
+   "folder": "inbox",
+   "from": "receipts@ridenow.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your ride receipt",
+   "body": "Thanks for riding with RideNow.\n\nRide: HSR Layout to Koramangala\nFare: Rs 420\nPaid with card ending 7730.\n\nRate your driver in the app.",
+   "ts": "2026-10-30T07:41:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00472",
+   "thread_id": "e_ax00472",
+   "folder": "inbox",
+   "from": "committee@hsrgreens.org",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "HSR Greens Residents: notice",
+   "body": "Dear residents, water supply will be interrupted on Wednesday between 10 am and 2 pm for tank cleaning. Please store water accordingly.\n\n- Managing Committee",
+   "ts": "2026-10-30T12:27:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00473",
+   "thread_id": "e_ax00473",
+   "folder": "inbox",
+   "from": "alerts@ledgerlinebank.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Transaction alert on your card",
+   "body": "Your card ending 7730 was used for Rs 1,949 at an online merchant. If this was not you, call the number on the back of your card.",
+   "ts": "2026-10-30T13:12:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00474",
+   "thread_id": "e_ax00474",
+   "folder": "inbox",
+   "from": "hello@streamhouse.tv",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "New this week on StreamHouse",
+   "body": "Because you watched the new F1 documentary: three new titles we think you will like. Plus, the second season of Paper Harbour drops on Tuesday.",
+   "ts": "2026-10-30T10:35:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00475",
+   "thread_id": "e_ax00475",
+   "folder": "inbox",
+   "from": "finance@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Reimbursement processed",
+   "body": "Your reimbursement claim for Rs 2,449 has been approved and will be paid with the next payroll.",
+   "ts": "2026-10-30T11:07:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00476",
+   "thread_id": "e_ax00476",
+   "folder": "inbox",
+   "from": "security@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Phishing drill results",
+   "body": "Thanks to everyone who reported last week's test email. 10% of the company clicked the link; please complete the 10-minute refresher if you were one of them.",
+   "ts": "2026-10-30T09:16:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00477",
+   "thread_id": "e_ax00477",
+   "folder": "inbox",
+   "from": "security@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Phishing drill results",
+   "body": "Thanks to everyone who reported last week's test email. 2% of the company clicked the link; please complete the 10-minute refresher if you were one of them.",
+   "ts": "2026-10-30T12:29:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00478",
+   "thread_id": "e_ax00478",
+   "folder": "inbox",
+   "from": "finance@ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Reimbursement processed",
+   "body": "Your reimbursement claim for Rs 1,849 has been approved and will be paid with the next payroll.",
+   "ts": "2026-10-30T09:19:00+05:30",
+   "labels": [
+    "work"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00479",
+   "thread_id": "e_ax00479",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Weekly dependency report",
+   "body": "22 packages have updates available, 7 of them security fixes.",
+   "ts": "2026-10-30T13:28:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00480",
+   "thread_id": "e_ax00480",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build passed on main (4.21.3)",
+   "body": "All 34 checks passed. Deployed to staging automatically.",
+   "ts": "2026-10-30T14:23:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00481",
+   "thread_id": "e_ax00481",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Deploy 4.23.2 to production succeeded",
+   "body": "Release 4.23.2 is live. Changelog attached.",
+   "ts": "2026-10-30T12:08:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00482",
+   "thread_id": "e_ax00482",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build failed on main",
+   "body": "The integration suite failed on the billing dashboard job after Ishita's merge. A re-run is queued.",
+   "ts": "2026-10-30T14:42:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00483",
+   "thread_id": "e_ax00483",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Deploy 4.19.1 to production succeeded",
+   "body": "Release 4.19.1 is live. Changelog attached.",
+   "ts": "2026-10-30T13:20:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00484",
+   "thread_id": "e_ax00484",
+   "folder": "inbox",
+   "from": "ci@builds.ledgerly.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Build passed on main (4.25.2)",
+   "body": "All 27 checks passed. Deployed to staging automatically.",
+   "ts": "2026-10-30T11:04:00+05:30",
+   "labels": [
+    "notifications"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00493",
+   "thread_id": "e_ax00493",
+   "folder": "inbox",
+   "from": "noreply@shelfwise.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your Shelfwise order has shipped",
+   "body": "Your order has shipped and will arrive in 2-3 days.\n\nOrder total: Rs 1,449.",
+   "ts": "2026-10-31T12:47:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00494",
+   "thread_id": "e_ax00494",
+   "folder": "inbox",
+   "from": "committee@hsrgreens.org",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "HSR Greens Residents: maintenance reminder",
+   "body": "This is a gentle reminder that maintenance for the quarter is due by the 10th. Late fee applies after that. Ignore if paid.",
+   "ts": "2026-10-31T11:22:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00495",
+   "thread_id": "e_ax00495",
+   "folder": "inbox",
+   "from": "alerts@ledgerlinebank.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Transaction alert on your card",
+   "body": "Your card ending 7730 was used for Rs 870 at an online merchant. If this was not you, call the number on the back of your card.",
+   "ts": "2026-10-31T08:43:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00496",
+   "thread_id": "e_ax00496",
+   "folder": "inbox",
+   "from": "alerts@ledgerlinebank.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your OTP for login",
+   "body": "Your one-time password is 881075. It is valid for 10 minutes. Never share your OTP with anyone, including bank staff.",
+   "ts": "2026-10-31T09:27:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00499",
+   "thread_id": "e_ax00499",
+   "folder": "inbox",
+   "from": "letters@theinterface.io",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "The Interface: Prototyping with real data",
+   "body": "The Interface - Sunday 01 November\n\n1. Prototyping with real data\nTeams that wire prototypes to production-shaped data find layout bugs weeks earlier. A walkthrough using anonymised fixtures.\n\n2. The best cheap eats near Hinjewadi\nReaders voted, we tasted. A misal place, a dosa counter that opens at seven and a thali worth the queue.\n\n3. What a good handoff contains\nStates, edge cases, copy, motion and a short 'why'. The rest is noise, and the 'why' is what usually goes missing.\n\n4. Inside a design crit that actually works\nA rotating facilitator, a strict 'questions before opinions' rule and a written summary within the hour. Simple, and rarer than it should be.\n\n5. When to kill a feature\nUsage below two percent is not enough on its own. A framework that weighs support cost, code ownership and the loudest five customers.\n\nYou are receiving this because you subscribed with arjun@ledgerly.in. Unsubscribe or manage preferences at the link below.",
+   "ts": "2026-11-01T06:26:00+05:30",
+   "labels": [
+    "newsletter"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00500",
+   "thread_id": "e_ax00500",
+   "folder": "inbox",
+   "from": "noreply@shelfwise.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your Shelfwise order has shipped",
+   "body": "Your order has shipped and will arrive in 2-3 days.\n\nOrder total: Rs 770.",
+   "ts": "2026-11-01T20:28:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00501",
+   "thread_id": "e_ax00501",
+   "folder": "inbox",
+   "from": "alerts@ledgerlinebank.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your OTP for login",
+   "body": "Your one-time password is 270700. It is valid for 10 minutes. Never share your OTP with anyone, including bank staff.",
+   "ts": "2026-11-01T13:26:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00502",
+   "thread_id": "e_ax00502",
+   "folder": "inbox",
+   "from": "committee@hsrgreens.org",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "HSR Greens Residents: notice",
+   "body": "Dear residents, water supply will be interrupted on Thursday between 10 am and 2 pm for tank cleaning. Please store water accordingly.\n\n- Managing Committee",
+   "ts": "2026-11-01T13:00:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00503",
+   "thread_id": "e_ax00503",
+   "folder": "inbox",
+   "from": "billing@fibrenet.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your FibreNet bill is ready",
+   "body": "Your broadband bill for this cycle is Rs 499. Auto-pay is enabled and will run on the due date. Data used this cycle: 335 GB.",
+   "ts": "2026-11-01T17:22:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00504",
+   "thread_id": "e_ax00504",
+   "folder": "inbox",
+   "from": "receipts@ridenow.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Your ride receipt",
+   "body": "Thanks for riding with RideNow.\n\nRide: HSR Layout to Koramangala\nFare: Rs 1,120\nPaid with card ending 7730.\n\nRate your driver in the app.",
+   "ts": "2026-11-01T15:39:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00505",
+   "thread_id": "e_ax00505",
+   "folder": "inbox",
+   "from": "no-reply@mahapower.in",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "Electricity bill generated",
+   "body": "Your electricity bill is Rs 349, due in 14 days. Units consumed: 183.",
+   "ts": "2026-11-01T13:41:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00506",
+   "thread_id": "e_ax00506",
+   "folder": "inbox",
+   "from": "committee@hsrgreens.org",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "HSR Greens Residents: maintenance reminder",
+   "body": "This is a gentle reminder that maintenance for the quarter is due by the 10th. Late fee applies after that. Ignore if paid.",
+   "ts": "2026-11-01T22:03:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  },
+  {
+   "id": "e_ax00507",
+   "thread_id": "e_ax00507",
+   "folder": "inbox",
+   "from": "committee@hsrgreens.org",
+   "to": [
+    "arjun@ledgerly.in"
+   ],
+   "cc": [],
+   "subject": "HSR Greens Residents: maintenance reminder",
+   "body": "This is a gentle reminder that maintenance for the quarter is due by the 10th. Late fee applies after that. Ignore if paid.",
+   "ts": "2026-11-01T12:02:00+05:30",
+   "labels": [
+    "updates"
+   ],
+   "unread": true
+  }
+ ],
+ "docs": [
+  {
+   "id": "doc_oncall",
+   "title": "Payments on-call runbook",
+   "owner": "@mohit",
+   "created_at": "2026-10-27T10:00:00+05:30",
+   "updated_at": "2026-11-01T15:00:00+05:30",
+   "body": "# Payments on-call runbook\n\nContext, goals and open questions. Comments welcome; please resolve threads you start.\n\n## Rollout\n\n- Success means CSAT improves by at least 9% within a month of rollout.\n- The icon set must work with keyboard only and meet contrast targets.\n- Open: do we show the summary before or after confirmation?\n- Support has asked for a clearer error when the bank rejects a request.\n\n## Appendix\n\n- Instrument every step so we can compare against the old flow.\n- Open: do we show the summary before or after confirmation?\n- Users abandon at the tax settings step roughly 12% of the time.\n\n## Research findings\n\n- Dependencies: API changes from the platform team, copy from the writing team.\n- Five of eight interviewees described the current billing dashboard as 'confusing' unprompted.\n\n## User problems\n\n- We should reuse the existing patterns from the password reset rather than invent new ones.\n- Dependencies: API changes from the platform team, copy from the writing team.\n\n## Proposed approach\n\n- Legal needs to review any copy that mentions fees or limits.\n- Support has asked for a clearer error when the bank rejects a request.\n- Out of scope for this phase: bulk actions and saved views.\n- Out of scope for this phase: bulk actions and saved views.\n- The notifications centre must work with keyboard only and meet contrast targets.\n\n## Goals\n\n- Success means support tickets per 1k users improves by at least 3% within a month of rollout.\n- Instrument every step so we can compare against the old flow.\n\n## Decisions log\n\n- Five of eight interviewees described the current approval rules as 'confusing' unprompted.\n- Legal needs to review any copy that mentions fees or limits.\n- Open: do we show the summary before or after confirmation?\n- We should reuse the existing patterns from the settings revamp rather than invent new ones.\n- Five of eight interviewees described the current error banners as 'confusing' unprompted.\n\n## Metrics\n\n- Instrument every step so we can compare against the old flow.\n- Open: do we show the summary before or after confirmation?\n- Dependencies: API changes from the platform team, copy from the writing team.\n\n## Non-goals\n\n- The vendor list must work with keyboard only and meet contrast targets.\n- Legal needs to review any copy that mentions fees or limits.\n- Mobile web is about a third of traffic; design for 360px first.\n- The first-run checklist must work with keyboard only and meet contrast targets.\n- Dependencies: API changes from the platform team, copy from the writing team.\n",
+   "comments": [],
+   "kind": "spec"
+  },
+  {
+   "id": "doc_eng_weekly",
+   "title": "Engineering weekly notes",
+   "owner": "@joseph",
+   "created_at": "2026-10-27T10:00:00+05:30",
+   "updated_at": "2026-11-01T15:00:00+05:30",
+   "body": "# Engineering weekly notes\n\nContext, goals and open questions. Comments welcome; please resolve threads you start.\n\n## Risks\n\n- Dependencies: API changes from the platform team, copy from the writing team.\n- Dependencies: API changes from the platform team, copy from the writing team.\n\n## Non-goals\n\n- Open: do we show the summary before or after confirmation?\n- Instrument every step so we can compare against the old flow.\n- Support has asked for a clearer error when the bank rejects a request.\n\n## Open questions\n\n- We should reuse the existing patterns from the billing dashboard rather than invent new ones.\n- Users abandon at the invoices list step roughly 8% of the time.\n\n## Proposed approach\n\n- Users abandon at the error banners step roughly 17% of the time.\n- Five of eight interviewees described the current statement download as 'confusing' unprompted.\n- The KYC step must work with keyboard only and meet contrast targets.\n\n## Appendix\n\n- Out of scope for this phase: bulk actions and saved views.\n- Mobile web is about a third of traffic; design for 360px first.\n- Dependencies: API changes from the platform team, copy from the writing team.\n- Support has asked for a clearer error when the bank rejects a request.\n- The icon set must work with keyboard only and meet contrast targets.\n\n## Edge cases\n\n- We should reuse the existing patterns from the payouts screen rather than invent new ones.\n- Instrument every step so we can compare against the old flow.\n- Five of eight interviewees described the current invoices list as 'confusing' unprompted.\n- We should reuse the existing patterns from the date picker rather than invent new ones.\n- Support has asked for a clearer error when the bank rejects a request.\n\n## Research findings\n\n- Instrument every step so we can compare against the old flow.\n- Success means signup completion improves by at least 5% within a month of rollout.\n- Mobile web is about a third of traffic; design for 360px first.\n- Instrument every step so we can compare against the old flow.\n- Engineering estimate is 6 sprints including QA.\n",
+   "comments": [],
+   "kind": "notes"
+  },
+  {
+   "id": "doc_pay_prd",
+   "title": "Payouts v3 - PRD",
+   "owner": "@deepa",
+   "created_at": "2026-10-27T10:00:00+05:30",
+   "updated_at": "2026-11-01T15:00:00+05:30",
+   "body": "# Payouts v3 - PRD\n\nThis document captures the current thinking on the topic. It is a working draft and will change.\n\n## Metrics\n\n- Five of eight interviewees described the current icon set as 'confusing' unprompted.\n- Out of scope for this phase: bulk actions and saved views.\n\n## Context\n\n- We should reuse the existing patterns from the approval rules rather than invent new ones.\n- Five of eight interviewees described the current global search as 'confusing' unprompted.\n- Mobile web is about a third of traffic; design for 360px first.\n\n## Open questions\n\n- Five of eight interviewees described the current team invites as 'confusing' unprompted.\n- Open: do we show the summary before or after confirmation?\n- Instrument every step so we can compare against the old flow.\n- Users abandon at the payouts screen step roughly 2% of the time.\n- Dependencies: API changes from the platform team, copy from the writing team.\n\n## Edge cases\n\n- Five of eight interviewees described the current settings revamp as 'confusing' unprompted.\n- Dependencies: API changes from the platform team, copy from the writing team.\n- Support has asked for a clearer error when the bank rejects a request.\n\n## Research findings\n\n- Five of eight interviewees described the current activity log as 'confusing' unprompted.\n- Instrument every step so we can compare against the old flow.\n- Out of scope for this phase: bulk actions and saved views.\n- The activity log must work with keyboard only and meet contrast targets.\n\n## Decisions log\n\n- Open: do we show the summary before or after confirmation?\n- Open: do we show the summary before or after confirmation?\n",
+   "comments": [],
+   "kind": "spec"
+  },
+  {
+   "id": "doc_platform",
+   "title": "RFC: queue consolidation",
+   "owner": "@naveen",
+   "created_at": "2026-10-27T10:00:00+05:30",
+   "updated_at": "2026-11-01T15:00:00+05:30",
+   "body": "# RFC: queue consolidation\n\nThis document captures the current thinking on the topic. It is a working draft and will change.\n\n## Appendix\n\n- Out of scope for this phase: bulk actions and saved views.\n- Users abandon at the icon set step roughly 15% of the time.\n\n## User problems\n\n- Users abandon at the billing dashboard step roughly 19% of the time.\n- Success means crash-free sessions improves by at least 13% within a month of rollout.\n- We should reuse the existing patterns from the API keys page rather than invent new ones.\n\n## Non-goals\n\n- Legal needs to review any copy that mentions fees or limits.\n- Engineering estimate is 9 sprints including QA.\n\n## Decisions log\n\n- Out of scope for this phase: bulk actions and saved views.\n- Users abandon at the webhook settings step roughly 9% of the time.\n\n## Context\n\n- Out of scope for this phase: bulk actions and saved views.\n- Support has asked for a clearer error when the bank rejects a request.\n\n## Risks\n\n- Users abandon at the role permissions step roughly 15% of the time.\n- Out of scope for this phase: bulk actions and saved views.\n\n## Open questions\n\n- Five of eight interviewees described the current billing dashboard as 'confusing' unprompted.\n- Users abandon at the payouts screen step roughly 7% of the time.\n- Open: do we show the summary before or after confirmation?\n- Success means support tickets per 1k users improves by at least 8% within a month of rollout.\n\n## Edge cases\n\n- We should reuse the existing patterns from the first-run checklist rather than invent new ones.\n- The approval rules must work with keyboard only and meet contrast targets.\n- We should reuse the existing patterns from the settings revamp rather than invent new ones.\n",
+   "comments": [],
+   "kind": "spec"
+  }
+ ],
+ "tasks": [
+  {
+   "key": "PAY-701",
+   "title": "QA plan upgrade modal",
+   "project": "Payments core",
+   "status": "in_progress",
+   "assignee": "@aman",
+   "reporter": "@sneha",
+   "priority": "P1",
+   "due": null,
+   "description": "Follow-up from crit: the plan upgrade modal needs a loading state and an error state. Designs linked.",
+   "created_at": "2026-10-27T10:57:00+05:30",
+   "updated_at": "2026-11-01T13:10:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-702",
+   "title": "Polish team invites",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@vivek",
+   "reporter": "@sneha",
+   "priority": "P3",
+   "due": null,
+   "description": "Customers report confusion on the team invites. Support has 22 tickets this month. Investigate and propose a fix.",
+   "created_at": "2026-10-27T17:49:00+05:30",
+   "updated_at": "2026-11-01T17:24:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-703",
+   "title": "Clean up tokens in invoices list",
+   "project": "Payments core",
+   "status": "in_progress",
+   "assignee": "@vivek",
+   "reporter": "@naveen",
+   "priority": "P3",
+   "due": null,
+   "description": "Follow-up from crit: the invoices list needs a loading state and an error state. Designs linked.",
+   "created_at": "2026-10-27T11:07:00+05:30",
+   "updated_at": "2026-11-01T10:00:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-704",
+   "title": "Fix spacing on KYC step",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@sneha",
+   "reporter": "@aman",
+   "priority": "P2",
+   "due": null,
+   "description": "Follow-up from crit: the KYC step needs a loading state and an error state. Designs linked.",
+   "created_at": "2026-10-27T14:36:00+05:30",
+   "updated_at": "2026-11-01T17:28:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-705",
+   "title": "Review copy on payouts screen",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@sneha",
+   "reporter": "@vivek",
+   "priority": "P2",
+   "due": "2026-11-06",
+   "description": "Tech debt: the payouts screen still uses deprecated tokens. Migrate and remove the old styles.",
+   "created_at": "2026-10-27T11:24:00+05:30",
+   "updated_at": "2026-11-01T17:59:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-706",
+   "title": "Clean up tokens in global search",
+   "project": "Payments core",
+   "status": "in_progress",
+   "assignee": "@naveen",
+   "reporter": "@aman",
+   "priority": "P1",
+   "due": null,
+   "description": "Customers report confusion on the global search. Support has 33 tickets this month. Investigate and propose a fix.",
+   "created_at": "2026-10-27T16:59:00+05:30",
+   "updated_at": "2026-11-01T12:36:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-707",
+   "title": "Polish global search",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@deepa",
+   "reporter": "@aman",
+   "priority": "P1",
+   "due": null,
+   "description": "Customers report confusion on the global search. Support has 36 tickets this month. Investigate and propose a fix.",
+   "created_at": "2026-10-27T10:09:00+05:30",
+   "updated_at": "2026-11-01T14:41:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-708",
+   "title": "Polish date picker",
+   "project": "Payments core",
+   "status": "blocked",
+   "assignee": "@vivek",
+   "reporter": "@sneha",
+   "priority": "P2",
+   "due": null,
+   "description": "As a user I want the date picker to be clearer about what happens next. Acceptance: copy reviewed, states covered, analytics events added.",
+   "created_at": "2026-10-27T16:26:00+05:30",
+   "updated_at": "2026-11-01T12:05:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-709",
+   "title": "QA icon set",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@aman",
+   "reporter": "@vivek",
+   "priority": "P2",
+   "due": "2026-11-20",
+   "description": "Customers report confusion on the icon set. Support has 13 tickets this month. Investigate and propose a fix.",
+   "created_at": "2026-10-27T13:41:00+05:30",
+   "updated_at": "2026-11-01T10:46:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-710",
+   "title": "Review copy on plan upgrade modal",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@sneha",
+   "reporter": "@naveen",
+   "priority": "P1",
+   "due": null,
+   "description": "Customers report confusion on the plan upgrade modal. Support has 31 tickets this month. Investigate and propose a fix.",
+   "created_at": "2026-10-27T12:36:00+05:30",
+   "updated_at": "2026-11-01T11:30:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-711",
+   "title": "QA tax settings",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@arjun",
+   "reporter": "@sneha",
+   "priority": "P1",
+   "due": null,
+   "description": "As a user I want the tax settings to be clearer about what happens next. Acceptance: copy reviewed, states covered, analytics events added.",
+   "created_at": "2026-10-27T15:07:00+05:30",
+   "updated_at": "2026-11-01T14:33:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-712",
+   "title": "Review copy on billing dashboard",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@naveen",
+   "reporter": "@deepa",
+   "priority": "P3",
+   "due": null,
+   "description": "Follow-up from crit: the billing dashboard needs a loading state and an error state. Designs linked.",
+   "created_at": "2026-10-27T10:28:00+05:30",
+   "updated_at": "2026-11-01T17:49:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-713",
+   "title": "Refactor approval rules",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@sneha",
+   "reporter": "@naveen",
+   "priority": "P2",
+   "due": null,
+   "description": "Tech debt: the approval rules still uses deprecated tokens. Migrate and remove the old styles.",
+   "created_at": "2026-10-27T10:54:00+05:30",
+   "updated_at": "2026-11-01T11:26:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-714",
+   "title": "Review copy on mobile nav",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@arjun",
+   "reporter": "@sneha",
+   "priority": "P3",
+   "due": null,
+   "description": "Accessibility: focus order on the mobile nav is wrong and two contrast checks fail.",
+   "created_at": "2026-10-27T17:16:00+05:30",
+   "updated_at": "2026-11-01T11:26:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-715",
+   "title": "Review copy on icon set",
+   "project": "Payments core",
+   "status": "blocked",
+   "assignee": "@aman",
+   "reporter": "@aman",
+   "priority": "P3",
+   "due": "2026-11-30",
+   "description": "Tech debt: the icon set still uses deprecated tokens. Migrate and remove the old styles.",
+   "created_at": "2026-10-27T17:41:00+05:30",
+   "updated_at": "2026-11-01T11:15:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-716",
+   "title": "Fix spacing on 2FA setup",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@deepa",
+   "reporter": "@vivek",
+   "priority": "P3",
+   "due": null,
+   "description": "Customers report confusion on the 2FA setup. Support has 43 tickets this month. Investigate and propose a fix.",
+   "created_at": "2026-10-27T16:40:00+05:30",
+   "updated_at": "2026-11-01T14:40:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-717",
+   "title": "Refactor date picker",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@arjun",
+   "reporter": "@naveen",
+   "priority": "P1",
+   "due": null,
+   "description": "Customers report confusion on the date picker. Support has 34 tickets this month. Investigate and propose a fix.",
+   "created_at": "2026-10-27T14:46:00+05:30",
+   "updated_at": "2026-11-01T16:00:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-718",
+   "title": "Instrument vendor list",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@aman",
+   "reporter": "@sneha",
+   "priority": "P1",
+   "due": "2026-11-25",
+   "description": "Tech debt: the vendor list still uses deprecated tokens. Migrate and remove the old styles.",
+   "created_at": "2026-10-27T14:40:00+05:30",
+   "updated_at": "2026-11-01T16:36:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-719",
+   "title": "Prototype role permissions",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@naveen",
+   "reporter": "@aman",
+   "priority": "P2",
+   "due": null,
+   "description": "Tech debt: the role permissions still uses deprecated tokens. Migrate and remove the old styles.",
+   "created_at": "2026-10-27T12:59:00+05:30",
+   "updated_at": "2026-11-01T17:52:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-720",
+   "title": "Prototype expense cards",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@deepa",
+   "reporter": "@naveen",
+   "priority": "P2",
+   "due": null,
+   "description": "Accessibility: focus order on the expense cards is wrong and two contrast checks fail.",
+   "created_at": "2026-10-27T11:25:00+05:30",
+   "updated_at": "2026-11-01T11:41:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-721",
+   "title": "Refactor first-run checklist",
+   "project": "Payments core",
+   "status": "todo",
+   "assignee": "@aman",
+   "reporter": "@deepa",
+   "priority": "P2",
+   "due": null,
+   "description": "Accessibility: focus order on the first-run checklist is wrong and two contrast checks fail.",
+   "created_at": "2026-10-27T16:39:00+05:30",
+   "updated_at": "2026-11-01T17:59:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-722",
+   "title": "Refactor webhook settings",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@aman",
+   "reporter": "@vivek",
+   "priority": "P2",
+   "due": null,
+   "description": "Follow-up from crit: the webhook settings needs a loading state and an error state. Designs linked.",
+   "created_at": "2026-10-27T15:00:00+05:30",
+   "updated_at": "2026-11-01T13:45:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-723",
+   "title": "QA invoices list",
+   "project": "Payments core",
+   "status": "blocked",
+   "assignee": "@sneha",
+   "reporter": "@sneha",
+   "priority": "P2",
+   "due": "2026-11-09",
+   "description": "As a user I want the invoices list to be clearer about what happens next. Acceptance: copy reviewed, states covered, analytics events added.",
+   "created_at": "2026-10-27T17:36:00+05:30",
+   "updated_at": "2026-11-01T11:08:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-724",
+   "title": "QA error banners",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@vivek",
+   "reporter": "@aman",
+   "priority": "P3",
+   "due": "2026-11-26",
+   "description": "Accessibility: focus order on the error banners is wrong and two contrast checks fail.",
+   "created_at": "2026-10-27T10:36:00+05:30",
+   "updated_at": "2026-11-01T15:02:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PAY-725",
+   "title": "Review copy on reports filters",
+   "project": "Payments core",
+   "status": "done",
+   "assignee": "@aman",
+   "reporter": "@deepa",
+   "priority": "P1",
+   "due": null,
+   "description": "Accessibility: focus order on the reports filters is wrong and two contrast checks fail.",
+   "created_at": "2026-10-27T13:11:00+05:30",
+   "updated_at": "2026-11-01T10:18:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-211",
+   "title": "Accessibility pass on activity log",
+   "project": "Platform",
+   "status": "done",
+   "assignee": "@mohit",
+   "reporter": "@prakash",
+   "priority": "P2",
+   "due": null,
+   "description": "Accessibility: focus order on the activity log is wrong and two contrast checks fail.",
+   "created_at": "2026-10-27T12:30:00+05:30",
+   "updated_at": "2026-11-01T13:00:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-212",
+   "title": "QA dark mode tokens",
+   "project": "Platform",
+   "status": "done",
+   "assignee": "@naveen",
+   "reporter": "@mohit",
+   "priority": "P2",
+   "due": null,
+   "description": "Accessibility: focus order on the dark mode tokens is wrong and two contrast checks fail.",
+   "created_at": "2026-10-27T13:15:00+05:30",
+   "updated_at": "2026-11-01T14:48:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-213",
+   "title": "Prototype payouts screen",
+   "project": "Platform",
+   "status": "in_progress",
+   "assignee": "@mohit",
+   "reporter": "@prakash",
+   "priority": "P1",
+   "due": null,
+   "description": "Tech debt: the payouts screen still uses deprecated tokens. Migrate and remove the old styles.",
+   "created_at": "2026-10-27T10:55:00+05:30",
+   "updated_at": "2026-11-01T12:46:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-214",
+   "title": "Prototype plan upgrade modal",
+   "project": "Platform",
+   "status": "in_progress",
+   "assignee": "@prakash",
+   "reporter": "@prakash",
+   "priority": "P3",
+   "due": null,
+   "description": "Tech debt: the plan upgrade modal still uses deprecated tokens. Migrate and remove the old styles.",
+   "created_at": "2026-10-27T13:41:00+05:30",
+   "updated_at": "2026-11-01T11:55:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-215",
+   "title": "Handoff specs for error banners",
+   "project": "Platform",
+   "status": "done",
+   "assignee": "@prakash",
+   "reporter": "@mohit",
+   "priority": "P2",
+   "due": "2026-11-13",
+   "description": "Customers report confusion on the error banners. Support has 42 tickets this month. Investigate and propose a fix.",
+   "created_at": "2026-10-27T12:08:00+05:30",
+   "updated_at": "2026-11-01T13:32:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-216",
+   "title": "QA error banners",
+   "project": "Platform",
+   "status": "in_progress",
+   "assignee": "@naveen",
+   "reporter": "@mohit",
+   "priority": "P1",
+   "due": "2026-11-29",
+   "description": "Accessibility: focus order on the error banners is wrong and two contrast checks fail.",
+   "created_at": "2026-10-27T13:47:00+05:30",
+   "updated_at": "2026-11-01T12:05:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-217",
+   "title": "QA mobile nav",
+   "project": "Platform",
+   "status": "in_progress",
+   "assignee": "@naveen",
+   "reporter": "@prakash",
+   "priority": "P2",
+   "due": null,
+   "description": "Follow-up from crit: the mobile nav needs a loading state and an error state. Designs linked.",
+   "created_at": "2026-10-27T17:58:00+05:30",
+   "updated_at": "2026-11-01T14:02:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-218",
+   "title": "Fix spacing on team invites",
+   "project": "Platform",
+   "status": "done",
+   "assignee": "@naveen",
+   "reporter": "@prakash",
+   "priority": "P2",
+   "due": null,
+   "description": "Customers report confusion on the team invites. Support has 42 tickets this month. Investigate and propose a fix.",
+   "created_at": "2026-10-27T15:11:00+05:30",
+   "updated_at": "2026-11-01T14:03:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-219",
+   "title": "Polish expense cards",
+   "project": "Platform",
+   "status": "done",
+   "assignee": "@prakash",
+   "reporter": "@mohit",
+   "priority": "P2",
+   "due": null,
+   "description": "Customers report confusion on the expense cards. Support has 45 tickets this month. Investigate and propose a fix.",
+   "created_at": "2026-10-27T16:02:00+05:30",
+   "updated_at": "2026-11-01T12:52:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-220",
+   "title": "QA bank linking",
+   "project": "Platform",
+   "status": "in_progress",
+   "assignee": "@prakash",
+   "reporter": "@naveen",
+   "priority": "P2",
+   "due": "2026-11-21",
+   "description": "Accessibility: focus order on the bank linking is wrong and two contrast checks fail.",
+   "created_at": "2026-10-27T11:07:00+05:30",
+   "updated_at": "2026-11-01T10:18:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-221",
+   "title": "Instrument icon set",
+   "project": "Platform",
+   "status": "in_progress",
+   "assignee": "@prakash",
+   "reporter": "@prakash",
+   "priority": "P2",
+   "due": null,
+   "description": "As a user I want the icon set to be clearer about what happens next. Acceptance: copy reviewed, states covered, analytics events added.",
+   "created_at": "2026-10-27T13:39:00+05:30",
+   "updated_at": "2026-11-01T16:38:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-222",
+   "title": "Handoff specs for plan upgrade modal",
+   "project": "Platform",
+   "status": "in_review",
+   "assignee": "@prakash",
+   "reporter": "@naveen",
+   "priority": "P3",
+   "due": null,
+   "description": "Follow-up from crit: the plan upgrade modal needs a loading state and an error state. Designs linked.",
+   "created_at": "2026-10-27T17:40:00+05:30",
+   "updated_at": "2026-11-01T12:31:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-223",
+   "title": "Polish statement download",
+   "project": "Platform",
+   "status": "done",
+   "assignee": "@mohit",
+   "reporter": "@prakash",
+   "priority": "P3",
+   "due": null,
+   "description": "Accessibility: focus order on the statement download is wrong and two contrast checks fail.",
+   "created_at": "2026-10-27T12:26:00+05:30",
+   "updated_at": "2026-11-01T15:31:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-224",
+   "title": "Fix spacing on first-run checklist",
+   "project": "Platform",
+   "status": "in_progress",
+   "assignee": "@naveen",
+   "reporter": "@naveen",
+   "priority": "P3",
+   "due": null,
+   "description": "Customers report confusion on the first-run checklist. Support has 45 tickets this month. Investigate and propose a fix.",
+   "created_at": "2026-10-27T11:18:00+05:30",
+   "updated_at": "2026-11-01T13:37:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-225",
+   "title": "Refactor approval rules",
+   "project": "Platform",
+   "status": "todo",
+   "assignee": "@mohit",
+   "reporter": "@mohit",
+   "priority": "P2",
+   "due": null,
+   "description": "As a user I want the approval rules to be clearer about what happens next. Acceptance: copy reviewed, states covered, analytics events added.",
+   "created_at": "2026-10-27T16:45:00+05:30",
+   "updated_at": "2026-11-01T10:32:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-226",
+   "title": "Redesign KYC step",
+   "project": "Platform",
+   "status": "done",
+   "assignee": "@naveen",
+   "reporter": "@naveen",
+   "priority": "P3",
+   "due": "2026-11-23",
+   "description": "As a user I want the KYC step to be clearer about what happens next. Acceptance: copy reviewed, states covered, analytics events added.",
+   "created_at": "2026-10-27T11:03:00+05:30",
+   "updated_at": "2026-11-01T17:11:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-227",
+   "title": "Review copy on tax settings",
+   "project": "Platform",
+   "status": "in_progress",
+   "assignee": "@mohit",
+   "reporter": "@prakash",
+   "priority": "P3",
+   "due": "2026-11-29",
+   "description": "Follow-up from crit: the tax settings needs a loading state and an error state. Designs linked.",
+   "created_at": "2026-10-27T11:33:00+05:30",
+   "updated_at": "2026-11-01T15:12:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-228",
+   "title": "Polish invoices list",
+   "project": "Platform",
+   "status": "done",
+   "assignee": "@mohit",
+   "reporter": "@prakash",
+   "priority": "P1",
+   "due": "2026-11-22",
+   "description": "Tech debt: the invoices list still uses deprecated tokens. Migrate and remove the old styles.",
+   "created_at": "2026-10-27T16:21:00+05:30",
+   "updated_at": "2026-11-01T10:36:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-229",
+   "title": "Clean up tokens in help centre",
+   "project": "Platform",
+   "status": "done",
+   "assignee": "@mohit",
+   "reporter": "@mohit",
+   "priority": "P1",
+   "due": null,
+   "description": "Tech debt: the help centre still uses deprecated tokens. Migrate and remove the old styles.",
+   "created_at": "2026-10-27T10:46:00+05:30",
+   "updated_at": "2026-11-01T12:41:00+05:30",
+   "comments": []
+  },
+  {
+   "key": "PLAT-230",
+   "title": "Instrument error banners",
+   "project": "Platform",
+   "status": "done",
+   "assignee": "@naveen",
+   "reporter": "@naveen",
+   "priority": "P1",
+   "due": "2026-11-24",
+   "description": "Follow-up from crit: the error banners needs a loading state and an error state. Designs linked.",
+   "created_at": "2026-10-27T15:57:00+05:30",
+   "updated_at": "2026-11-01T12:30:00+05:30",
+   "comments": []
+  }
+ ]
+}

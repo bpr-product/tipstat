@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HUSH Memory</title>
+<link rel="stylesheet" href="/app.css">
+</head>
+<body>
+<a class="skip" href="#transcript">Skip to the conversation</a>
+<header class="top">
+  <span class="mark">HUSH</span>
+  <div class="proj">
+    <button id="proj-btn" class="ghost proj-btn" aria-haspopup="menu" aria-expanded="false" aria-label="Switch project"><span id="proj-name">Project</span> <span aria-hidden="true">▾</span></button>
+    <div id="proj-menu" class="menu" role="menu" hidden></div>
+  </div>
+  <nav id="nav" aria-label="Pages">
+    <button data-page="chat" class="on">Chat</button>
+    <button data-page="memories">Memories</button>
+    <button data-page="system">System</button>
+  </nav>
+  <span class="grow"></span>
+  <button id="rail-toggle" class="ghost rail-toggle" aria-label="Show conversations" aria-expanded="false">Chats</button>
+  <button id="theme" class="ghost" aria-label="Toggle light and dark theme">Theme</button>
+</header>
+
+<main id="page-chat" class="page chat">
+  <aside id="rail" class="rail" aria-label="Conversations">
+    <button id="rail-close" class="ghost small rail-close" aria-label="Close conversations">Close</button>
+    <button id="new-chat" class="ink wide">New chat</button>
+    <div id="chat-list" class="chat-list"></div>
+    <button id="clear-chats" class="ghost small">Clear all chats in this project</button>
+  </aside>
+  <section class="main">
+    <div id="transcript" class="transcript" aria-live="polite"></div>
+    <form id="composer" class="composer" autocomplete="off">
+      <div class="modes" role="radiogroup" aria-label="Mode">
+        <label><input type="radio" name="mode" value="tell" checked> Tell</label>
+        <label><input type="radio" name="mode" value="ask"> Ask</label>
+        <label><input type="radio" name="mode" value="do"> Do</label>
+      </div>
+      <p id="mode-note" class="mode-note">Saves what is worth keeping. Forgetting works here too.</p>
+      <div id="world-row" class="world" hidden>
+        <label for="world">Mock world tools URL</label>
+        <input id="world" value="http://localhost:8800/t/me/tools">
+      </div>
+      <div class="box">
+        <textarea id="input" rows="2" placeholder="Tell me something to remember. To forget something, say so here." aria-label="Message"></textarea>
+        <span id="count" class="count" aria-live="polite"></span>
+        <button id="send" class="ink" type="submit">Send</button>
+      </div>
+    </form>
+  </section>
+</main>
+
+<main id="page-memories" class="page wide" hidden>
+  <div class="bar">
+    <h2>Memories</h2>
+    <div class="chips" id="filters" role="group" aria-label="View">
+      <button data-f="active" class="on">Current</button>
+      <button data-f="timeline">Timeline</button>
+      <button data-f="all">All versions</button>
+    </div>
+    <span class="grow"></span>
+    <span id="counts" class="muted"></span>
+    <button id="refresh" class="ghost">Refresh</button>
+  </div>
+  <div class="filters-row">
+    <input id="mem-q" type="search" placeholder="Search memories" aria-label="Search memories">
+    <select id="mem-kind" aria-label="Filter by kind"><option value="">All kinds</option><option>STATE</option><option>PREFERENCE</option><option>EVENT</option><option>PLAN</option><option>TODO</option><option>RULE</option><option>DERIVED</option></select>
+    <select id="mem-who" aria-label="Filter by whose"><option value="">Anyone</option><option value="user">About you</option><option value="other">Said by someone else</option></select>
+  </div>
+  <div id="facts"></div>
+  <h3>Forget receipts</h3>
+  <p class="muted">Counts only. A receipt never stores what was erased.</p>
+  <div id="forgets"></div>
+</main>
+
+<main id="page-system" class="page wide" hidden>
+  <h2>System</h2>
+  <dl id="sys" class="sys"></dl>
+  <div id="index"></div>
+  <h3>Delete everything</h3>
+  <p class="muted">Deletes every project, its memories and its conversations in this product. The evaluation service's memory is separate and is not touched.</p>
+  <button id="reset" class="danger">Delete all projects…</button>
+</main>
+
+<aside id="drawer" class="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+  <div class="drawer-head"><strong id="drawer-title">Details</strong><button id="close" class="ghost" aria-label="Close">Close</button></div>
+  <div id="drawer-body"></div>
+</aside>
+<div id="scrim" class="scrim" hidden></div>
+
+<dialog id="dlg" aria-labelledby="dlg-text">
+  <form method="dialog">
+    <p id="dlg-text"></p>
+    <input id="dlg-input" hidden aria-label="Value">
+    <p id="dlg-err" class="err" hidden></p>
+    <div class="row"><button value="cancel" class="ghost">Cancel</button><button value="ok" id="dlg-ok" class="ink">OK</button></div>
+  </form>
+</dialog>
+<script src="/app.js"></script>
+</body>
+</html>

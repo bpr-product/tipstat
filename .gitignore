@@ -1,0 +1,7 @@
+.env
+runs/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+hawk-eye-collector*
